@@ -1,8 +1,14 @@
 <?php
 
 class ItemsHandler {
-    function get($slug) {
+    function get($id) {
 		global $mstch;
-		echo $mstch->render('list', array('planet' => 'world'));
+		$categories = get_categories();
+		$items = get_items_bycat($id);
+		$detail = get_detail_bypos(1);
+		echo $mstch->render('principal', array(
+			'categories' => $categories,
+			'items' => $items,
+			'detail'=> $detail));
     }
 }
