@@ -21,5 +21,5 @@ ToroHook::add("404", function() {
 Toro::serve(array(
     "/" => "CategoriesHandler",
     "/category/:alpha" => "ItemsHandler",
-    "/category/:alpha/comment" => "DetailHandler"
+    "/category/:alpha/:alpha" => "DetailHandler"
 ));

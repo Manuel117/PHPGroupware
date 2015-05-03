@@ -18,3 +18,10 @@ function get_detail_bypos($pos) {
     $query->execute();
     return $query->fetch(PDO::FETCH_ASSOC);
 }
+
+function get_detail_byId($id) {
+    $query = SQLite::getInstance()->prepare("SELECT * FROM mailmessage WHERE id=:id");
+    $query->bindValue(':id', strval($id), PDO::PARAM_STR);
+    $query->execute();
+    return $query->fetch(PDO::FETCH_ASSOC);
+}

@@ -136,6 +136,7 @@ a {
     padding: 0.9em 1em;
     border-bottom: 1px solid #ddd;
     border-left: 6px solid transparent;
+    display:inline-block;
 }
     .email-avatar {
         border-radius: 3px;

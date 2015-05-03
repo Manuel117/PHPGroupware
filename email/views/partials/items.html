@@ -1,6 +1,7 @@
     <div id="list" class="pure-u-1">
 		
 		{{# items}}
+		<a href="/email/index.php/category/{{catId}}/{{id}}" class="pure-menu-link">
         <div class="email-item pure-g">
             <div class="pure-u">
                 <img class="email-avatar" alt="Yahoo! News&#x27; avatar" height="64" width="64" src="/email/img/common/ynews-avatar.png">
@@ -12,6 +13,7 @@
                 <p class="email-desc">{{description}}</p>
             </div>
         </div>
-		
-		{{/ items}}
+		</a>
+		{{/items}}
+
     </div>
