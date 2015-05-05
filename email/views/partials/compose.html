@@ -1,0 +1,41 @@
+	<div id="modal-compose" class="modal">
+		<div class="modal-content">
+			<div class="header">
+				<h2>Compose Message</h2>
+			</div>
+			<form class="pure-form pure-form-aligned" method="POST">
+			    <fieldset>
+			        <div class="pure-control-group">
+			            <label for="to">To:</label>
+			            <input id="to" type="text" placeholder="To" required>
+			        </div>
+
+			        <div class="pure-control-group">
+			            <label for="cc">Cc</label>
+			            <input id="cc" type="text" placeholder="Cc">
+			        </div>
+
+			        <div class="pure-control-group">
+			            <label for="subject">Subject</label>
+			            <input id="subject" class="pure-input-1-2" type="text" placeholder="Subject">
+			        </div>
+					
+			        <div class="pure-control-group">
+			            <label for="attachment">Attachment</label>
+			            <input id="attachment" class="pure-input-1-2" type="file" placeholder="Attachment">
+			        </div>
+
+			        <div class="pure-control-group">
+			            <label for="body">Message</label>
+			            <textarea id="body" class="pure-input-1-2" rows="10" placeholder="Enter something here...">
+			            </textarea>
+			        </div>
+			    </fieldset>
+			</form>
+			<div class="cf footer">
+				<a href="#"><button type="submit"class="pure-button pure-button-secondary">Cancel</button></a>
+				<a href="/email/index.php/message/0"><button type="submit" style="float:right;" class="pure-button pure-button-primary">Submit</button></a>
+			</div>
+		</div>
+		<div class="overlay"></div>
+	</div>
