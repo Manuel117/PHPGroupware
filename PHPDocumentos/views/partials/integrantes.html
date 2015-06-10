@@ -1,0 +1,23 @@
+<div id="directorio" class="col-md-8">
+    <div class="acciones">
+        <a href="#" data-toggle="modal" data-target="#modal-Integrante"><i id="plusIntegrante" class="fa fa-plus fa-lg derecha accion"></i></a>
+    </div>
+
+    <div class="integrantes">{{# integrantes}}
+        <a href="/PHPDocumentos/Integrante/{{IdUsuario}}">
+            <div class="pure-u integrante">
+                <div class="col-md-1">
+                <i id="icono" class="fa fa-user fa-2x"></i>
+                </div>
+                <div class="col-md-7 nombre">
+                    {{NombreUsuario}}
+                </div>
+                <div id="accionesIns" class="col-md-3">
+                    <a id="{{IdUsuario}}" grupo="{{grupo}}" class="BtnEliminarIntegrante" href="#" data-toggle="modal" data-target="#modal-eliminar"><i class="fa fa-trash-o fa-lg accionIns derecha"></i></a>&nbsp;
+                </div>
+            </div>
+        </a>
+        <br/>
+        {{/ integrantes}}
+    </div>
+</div>

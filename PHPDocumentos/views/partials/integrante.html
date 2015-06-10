@@ -1,0 +1,20 @@
+<div id="files" class="col-md-8">
+    <div class="acciones">
+        <a href="#" data-toggle="modal" data-target="#modal-nuevoA"><i class="fa fa-plus fa-lg derecha accion"></i></a>
+        <a href="/PHPDocumentos/cvArch/{{idCarpeta}}"><i class="fa fa-bars fa-lg vista accion"></i></a>
+    </div>
+     <div class="integranteInfo">{{# integrante}}
+            <div class="col-md-12">
+                <i class="fa fa-user fa-5x"></i>
+            </div>
+            <div class="col-md-12 nombre">
+                {{NombreUsuario}}
+                <br/>
+                Correo: ejemplo@servidor.com
+                <br/>
+                Teléfono: 22 22 22 22
+                <br/>
+                <div class="col-md-12 accionesIn"></div>
+            </div>{{/ integrante}}
+        </div>
+</div>

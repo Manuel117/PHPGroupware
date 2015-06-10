@@ -1,0 +1,16 @@
+<div id="files" class="col-md-12">
+    <div class="acciones">
+        <a href="/PHPDocumentos/cvArch/-1"><i class="fa fa-bars fa-lg vista accion"></i></a>
+    </div>
+    <div class="archivos" class="col-md-12">{{# archivos}}
+        <a class="aVisual" href="#" data-toggle="modal" data-target="#modal-visual" name="{{Descripcion}}">
+        <div class="archivoC col-md-2 col-xs-5 col-sm-5">
+            <center>
+                 <img id="{{Extension}}" onerror="this.src='/PHPDocumentos/img/otro.png'" alt="Imagen extension" height="50" width="50" src="/PHPDocumentos/img/{{Extension}}.png" placeholder="{{Archivo}}">
+                <br/>
+                <div class="datos">
+                    <div class="nombreA">{{Descripcion}}</div>
+                </div>
+            </center>
+        </div></a>{{/ archivos}}</div>
+</div>

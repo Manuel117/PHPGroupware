@@ -1,0 +1,29 @@
+<div id="mRegistrar" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-sm">
+		<div class="modal-content">
+			<!--header-->
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title">Registrar Usuario: </h4>
+			</div>
+			<!--body-->
+			<div class="modal-body">
+				<form id="frmRegistrar" class="pure-form pure-form-stacked" method="POST" action="/PHPDocumentos/">
+					<label for="nombreUsu">Nombre de Usuario:</label>
+					<input id="nombreUsu" name="nombreUsu" class="pure-input-1" type="text" placeholder="Obligatorio" required>
+					<label for="contraUsu">Contraseña:</label>
+					<input id="contraUsu" name="contraUsu" class="pure-input-1" type="password" placeholder="Obligatorio" required>
+					<label for="contraUsu2">Repetir Contraseña:</label>
+					<input id="contraUsu2" name="contraUsu2" class="pure-input-1" type="password" placeholder="Obligatorio" required>
+					<p class="spanMsj"></p>
+				</div>
+				<!--footer-->
+				<div class="modal-footer">
+					<button type="button" class="pure-button pure-button-secondary" data-dismiss="modal" name="btnUsuarioA">Cancel</button>
+					<input  type="submit" class="pure-button pure-button-primary" name="btnUsuarioA" value="Crear"/>
+
+				</form>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,36 @@
+
+form{
+	padding:2%;
+	border:thick solid silver;
+
+}
+label{
+	font-size:1.5em;
+}
+
+.colorFondoVerde{
+	background-image: url(/PHPDocumentos/img/intro-1600.jpg)
+}
+.colorFondoBlanco{
+	background-color: #eee;
+}
+
+.form-group{
+	text-align: center;
+}
+.centro{
+	margin-top: 10%;
+}
+.alerta{
+	color:red;
+}
+.logro{
+	color:green;
+}
+.linkRegistro{
+	float:right !important;
+	color:white !important;
+}
+.linkRegistro:hover{
+	color:black !important;
+}

@@ -1,0 +1,43 @@
+<div id="modal-Compartir" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<!--header-->
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Compartir Archivo </h4>
+				</div>
+				<!--body-->
+				<form class="pure-form pure-form-stacked" enctype="multipart/form-data" method="POST" action="/PHPDocumentos/Compartir/">
+					<div class="modal-body">
+						 <div class="pure-control-group">
+						 	<label for="Grupo">Compartir a Grupo: </label>
+							<select name="grupo">
+								<option value="">--Seleccione--</option>
+								{{# grupos}}
+										<option value="{{IdGrupo}}">{{Descripcion}}</option>
+								{{/ grupos}}
+									
+							</select>
+						</div>
+						
+				        <div class="pure-control-group">
+						 	<label for="Grupo">Compartir a un Usuario: </label>
+							<select name="usuario">
+								<option value="">--Seleccione--</option>
+								{{# usuarios}}
+										<option value="{{IdUsuario}}">{{NombreUsuario}}</option>
+								{{/ usuarios}}
+									
+							</select>
+						</div>
+						<input type="hidden" id="idDocumento" name="idDocumento">
+					</div>
+						<!--footer-->
+					<div class="modal-footer">
+						<button type="button"class="pure-button pure-button-secondary" data-dismiss="modal">Cancel</button>
+						<button type="submit" class="pure-button pure-button-primary">Crear</button>
+					</div>
+				</form>
+		</div>
+	</div>
+</div>

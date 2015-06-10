@@ -1,0 +1,24 @@
+<div id="directorio" class="col-md-4">
+    <div class="acciones">                
+        <a href="#" data-toggle="modal" data-target="#modal-nuevoG"><i class="fa fa-plus fa-lg derecha accion"></i></a>
+    </div>
+    <div class="carpetas">{{# Grupos}}
+        <a id="{{IdGrupo}}" href="/PHPDocumentos/Grupo/{{IdGrupo}}">
+            <div class="pure-u grupo">
+                <div class="col-md-1">
+                    <i class="fa fa-users fa-2x"></i>
+                </div>
+                <div class="col-md-7 nombre">
+                   <span>{{Descripcion}}</span> 
+                </div>
+                <div class="col-md-1">
+                    <a id="{{IdGrupo}}" name="{{Descripcion}}" class="btnEditarG" href="#" data-toggle="modal" data-target="#modal-editar"><i class="fa fa-pencil-square-o fa-lg derecha accionCar"></i></a>
+                </div>
+                <div class="col-md-1">
+                    <a id="{{IdGrupo}}" class="btnEliminarG" href="#" data-toggle="modal" data-target="#modal-eliminar"><i class="fa fa-trash-o fa-lg derecha accionCar"></i></a>
+                </div>
+            </div>
+        </a>
+        <br/>{{/ Grupos}}
+    </div>
+</div>

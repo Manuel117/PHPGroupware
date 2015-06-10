@@ -1,0 +1,25 @@
+<div id="modal-nuevoA" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<!--header-->
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Crear Archivo </h4>
+				</div>
+				<!--body-->
+				<form class="pure-form pure-form-stacked" enctype="multipart/form-data" method="POST" action="/PHPDocumentos/AdmArchivo/">
+					<div class="modal-body">
+					        <div class="pure-control-group">
+					            <label for="archivo">Archivo</label>
+					            <input name="archivo" id="archivo" class="pure-input-1-2" type="file" placeholder="archivo">
+					        </div>
+							</div>
+					<!--footer-->
+					<div class="modal-footer">
+						<button type="button"class="pure-button pure-button-secondary" data-dismiss="modal">Cancel</button>
+						<button type="submit" class="pure-button pure-button-primary">Crear</button>
+					</div>
+				</form>
+		</div>
+	</div>
+</div>

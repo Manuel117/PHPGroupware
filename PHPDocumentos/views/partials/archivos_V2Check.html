@@ -1,0 +1,53 @@
+<form method="post" action="/PHPDocumentos/MC/">
+<div id="files" class="col-md-8">
+    <div class="acciones">
+           <div class="pure-form"> 
+                <input class="derecha pure-button pure-button-active button-success" type="submit" name="variosAc" id="mArchivo"  data-toggle="modal" data-target="#modal-MArchivo" value="Mover">
+                <input class="derecha pure-button pure-button-active button-success" type="submit" name="variosAc" id="cArchivo"  data-toggle="modal" data-target="#modal-CArchivo" value="Copiar"/>
+                <select title="Seleccionar carpeta para mover/copiar archivo(s)" name="carpetaCB" class="derecha pure-button pure-button-active" required>
+                                        <option value="0">--Mi Unidad--</option>
+                                        {{# carpetasU}}
+                                                <option value="{{IdCarpeta}}">{{Descripcion}}</option>
+                                        {{/ carpetasU}}
+                                            
+                </select>
+            </div>
+        <a href="/PHPDocumentos/cvArch/{{idCarpeta}}"><i class="fa fa-th-large fa-lg vista accion"></i></a>
+        <a class="aCheck" href="/PHPDocumentos/cvArchCheck/"><i class="fa fa-file fa-lg vista accion"></i></a>
+    </div>
+
+    <div class="archivos" class="col-md-12">
+        <table class="pure-table pure-table-bordered datos col-md-12">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Fecha de creación</th>
+                    <th>Seleccionar</th>
+                </tr>
+            </thead>
+            <tbody>{{# archivos}}
+                <tr class="archivoL">
+                    <td>
+                        <a class="aVisual col-md-12" href="#" data-toggle="modal" data-target="#modal-visual" name="{{Descripcion}}">
+                            <img id="{{Extension}}" onerror="this.src='/PHPDocumentos/img/otro.png'" alt="Imagen extension" height="50" width="50" src="/PHPDocumentos/img/{{Extension}}.png" placeholder="{{Archivo}}" iddocumento="{{IdDocumento}}">
+                                {{Descripcion}}
+                        </a>
+                    </td>
+                    <td>
+                        <a class="aVisual col-md-12" href="#" data-toggle="modal" data-target="#modal-visual">
+                            {{FechaCreacion}}
+                            <img id="{{Extension}}" alt="Imagen extension" height="40" width="40" src="/PHPDocumentos/img/{{Extension}}.png" placeholder="{{Archivo}}" iddocumento="{{IdDocumento}}" hidden>
+                        </a>
+                    </td>
+                    <td>
+                        <label for="seleccionar">
+                                    <input id="seleccionar" type="checkbox" name="ckbSeleccionado[]" value="{{IdDocumento}},{{IdCarpeta}}"/>
+                        </label> 
+                   </td>
+                </tr>{{/ archivos}}</tbody>
+        </table>
+    </div>
+    
+    
+</div>
+</form>

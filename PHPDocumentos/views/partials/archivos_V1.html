@@ -1,0 +1,19 @@
+<div id="files" class="col-md-8">
+    <div class="acciones">
+        <a href="#" data-toggle="modal" data-target="#modal-nuevoA"><i class="fa fa-plus fa-lg derecha accion"></i></a>
+        <a href="/PHPDocumentos/cvArch/{{idCarpeta}}"><i class="fa fa-bars fa-lg vista accion"></i></a>
+        <a class="aCheck" href="/PHPDocumentos/cvArchCheck/"><i class="fa fa-check-square-o fa-lg vista accion"></i></a>
+    </div>
+    <div class="archivos" class="col-md-12">{{# archivos}}
+        <a class="aVisual" href="#" data-toggle="modal" data-target="#modal-visual" name="{{Descripcion}}">
+            <div class="archivoC col-md-2 col-xs-5 col-sm-5">
+                <center>
+                     <img id="{{Extension}}" alt="imagen" onerror="this.src='/PHPDocumentos/img/otro.png'" height="50" width="50" src="/PHPDocumentos/img/{{Extension}}.png" placeholder="{{Archivo}}" iddocumento="{{IdDocumento}}">
+                    <br/>
+                    <div class="datos">
+                        <div class="nombreA">{{Descripcion}}</div>
+                    </div>
+                </center>
+            </div>
+        </a>{{/ archivos}}</div>
+</div>

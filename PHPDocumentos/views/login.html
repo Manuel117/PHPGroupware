@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Proyecto de Programacion Web.">
+		<title>Login - Gestor de archivos</title>
+		<link rel="stylesheet" href="/PHPDocumentos/css/pure-min.css">
+		<link rel="stylesheet" href="/PHPDocumentos/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/PHPDocumentos/css/layouts/email.css">
+		<link rel="stylesheet" href="/PHPDocumentos/css/login.css">
+		<script src="/PHPDocumentos/js/jquery-2.1.3.js"></script>
+		<script src="/PHPDocumentos/js/bootstrap.min.js"></script>
+		<script src="/PHPDocumentos/js/script.js"></script>
+	</head>
+	</head>
+	<body class="colorFondoVerde pure-img">
+		<div class="row">
+			<div class="container">
+				<div class="col-md-4 col-xs-12">
+					<p></p>
+				</div>
+				<div class="col-md-4 col-xs-12 centro">
+					<form class="colorFondoBlanco" role="form" method="post" action="/PHPDocumentos/" class="pure-form pure-form-aligned">
+						<div class="form-group">
+							<h1>Login</h1>
+							<hr/>
+							<label for="txtUser">Usuario:</label>
+							<br/>
+							<input type="text" id="txtUser" name="txtUser" />
+							<br/>
+							<br/>
+							<label for="txtPass">Contraseña:</label>
+							<br/>
+							<input type="password" id="txtPass" name="txtPass" />
+							<br/>
+							<br/>
+							<input type="submit" id="btnLogin" name="btnUsuarioA" value="Entrar" class="btn btn-primary" />
+							<br/>
+							<br/>
+							<span class="alerta">{{alerta}}
+								<span>
+									<p class="alerta">{{alertaReg}}</p>
+									<p class="logro">{{logroReg}}</p>
+						</div>
+					</form>
+					<a href="#" class="linkRegistro" data-toggle="modal" data-target="#mRegistrar">Registrarse</a>
+				</div>
+				<div class="col-md-4 col-xs-12"></div>
+				<div></div>{{>partials/mRegistrarUsuario}}</body>
+
+</html>

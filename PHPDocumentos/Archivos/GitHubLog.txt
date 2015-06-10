@@ -1,0 +1,855 @@
+2015-05-11 23:48:42.7240|WARN|thread: 1|StandardUserErrors|Showing user error Failed to create a new commit.
+GitHub.IO.ProcessException: On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 2 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+nothing to commit, working directory clean
+2015-05-11 22:03:24.6779|INFO|thread: 1|CommandLineHandler|Parsing command line arguments:C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14\GitHub.exe
+2015-05-11 22:03:24.6935|INFO|thread: 1|AppInstanceCommunicator|Starting up as master instance of GitHub for Windows
+2015-05-11 22:03:24.7403|INFO|thread: 5|StartupLogging| #########################################
+2015-05-11 22:03:24.7403|INFO|thread: 5|StartupLogging| GitHub for Windows started. VERSION: 2.13.2.4
+2015-05-11 22:03:24.7403|INFO|thread: 5|StartupLogging| Build version: b5813af694417341067e77ba27146bdc57169dba
+2015-05-11 22:03:24.7403|INFO|thread: 5|StartupLogging| ***************************************
+2015-05-11 22:03:24.7403|INFO|thread: 5|StartupLogging| ***                                 ***
+2015-05-11 22:03:24.7403|INFO|thread: 5|StartupLogging| ***                                 ***
+2015-05-11 22:03:24.7403|INFO|thread: 5|StartupLogging| ***        Have a problem?          ***
+2015-05-11 22:03:24.7403|INFO|thread: 5|StartupLogging| ***    Email support@github.com     ***
+2015-05-11 22:03:24.7403|INFO|thread: 5|StartupLogging| ***      and include this file      ***
+2015-05-11 22:03:24.7403|INFO|thread: 5|StartupLogging| ***                                 ***
+2015-05-11 22:03:24.7403|INFO|thread: 5|StartupLogging| ***                                 ***
+2015-05-11 22:03:24.7403|INFO|thread: 5|StartupLogging| ***************************************
+2015-05-11 22:03:24.7403|INFO|thread: 5|StartupLogging| OS Version: Windows NT 6.3.9600.0 amd64
+2015-05-11 22:03:24.7403|INFO|thread: 5|StartupLogging| CLR Version: 4.0.30319.34014
+2015-05-11 22:03:24.7403|INFO|thread: 5|StartupLogging| Current culture: es-ES
+2015-05-11 22:03:24.7403|INFO|thread: 5|StartupLogging| Terminal Services session: no
+2015-05-11 22:03:24.7403|INFO|thread: 5|StartupLogging| Location: C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14\GitHub.exe
+2015-05-11 22:03:24.7560|INFO|thread: 5|StartupLogging| ActivationUri: https://github-windows.s3.amazonaws.com/GitHub.application
+2015-05-11 22:03:24.7872|INFO|thread: 1|HardwareRenderingHelper|Your video card appears to support hardware rendering. If this isn't the case and you see glitches
+2015-05-11 22:03:24.7872|INFO|thread: 1|HardwareRenderingHelper|set the GH_FORCE_SW_RENDERING environment variable to 1
+2015-05-11 22:03:24.8966|INFO|thread: 5|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-05-11 22:03:24.8966|INFO|thread: 5|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files\Microsoft SQL Server\110\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;c:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseSVN\bin
+2015-05-11 22:03:24.8966|INFO|thread: 5|StartupLogging| =====================================================
+2015-05-11 22:03:24.8966|INFO|thread: 5|StartupLogging|  DIAGNOSTICS                                        |
+2015-05-11 22:03:24.8966|INFO|thread: 5|StartupLogging| =====================================================
+2015-05-11 22:03:24.9122|INFO|thread: 5|StartupLogging| Git Extracted: 'True:
+2015-05-11 22:03:24.9122|INFO|thread: 5|StartupLogging| PortableGit Dir Exists: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad'
+2015-05-11 22:03:24.9122|INFO|thread: 5|StartupLogging| Git Executable Exists: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe'
+2015-05-11 22:03:24.9122|INFO|thread: 5|StartupLogging| ----------------------------------------------------
+2015-05-11 22:03:24.9122|INFO|thread: 5|StartupLogging| PATH: C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files\Microsoft SQL Server\110\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;c:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseSVN\bin
+2015-05-11 22:03:24.9278|INFO|thread: 5|StartupLogger|Proxy information: (None)
+2015-05-11 22:03:24.9278|INFO|thread: 5|StartupLogger|Couldn't fetch creds for proxy
+2015-05-11 22:03:25.0372|INFO|thread: 1|App|Checking whether application is network deployed.
+2015-05-11 22:03:25.0528|INFO|thread: 5|PortablePackageManager|Already extracted PortableGit.7z, returning 100%
+2015-05-11 22:03:25.1153|INFO|thread: 1|ClickOnceAppIconHelper|Updating registry with our application icon 'C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14\Images\App.ico'
+2015-05-11 22:03:25.1466|INFO|thread: 5|MsysGitCertificateInstaller|Found certificate cache, loaded 162 certificates
+2015-05-11 22:03:25.2404|INFO|thread: 5|MsysGitCertificateInstaller|Created certificate bundle with 180 entries
+2015-05-11 22:03:27.4904|INFO|thread: 1|CommandLineToolsExtractor|Portable Git and Git LFS are already extracted
+2015-05-11 22:03:27.4904|INFO|thread: 1|GitClient|Installing git lfs filters
+2015-05-11 22:03:27.5060|INFO|thread: 1|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-05-11 22:03:27.5060|INFO|thread: 1|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:03:27.5060|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'lfs init ', Working Directory: C:\Users\carlos\AppData\Local\Temp\
+2015-05-11 22:03:27.6311|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.ShellViewModel.
+2015-05-11 22:03:27.6311|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.DashboardViewModel.
+2015-05-11 22:03:28.7647|INFO|thread: 1|PortablePackageManager|Already extracted gitignore.7z, returning 100%
+2015-05-11 22:03:30.3151|INFO|thread: 1|RepositoryHost|Log in from cache for login 'Tenorio9' to host 'https://api.github.com/' SUCCEEDED
+2015-05-11 22:03:30.3619|INFO|thread:22|ApplicationShellInitializer|Running post login tasks. ~/.gitconfig is set up with user.name = 'Bernal Hernández B' and user.email = 'bhbarquero@gmail.com'
+2015-05-11 22:03:30.3932|INFO|thread:10|SSHProcessManager|Starting ssh-agent.exe
+2015-05-11 22:03:30.4088|INFO|thread:10|PortablePackageManager|Already extracted lfs-amd64.7z, returning 100%
+2015-05-11 22:03:31.5026|INFO|thread:23|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:03:31.5026|INFO|thread:23|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:03:31.5182|INFO|thread:23|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\ssh-add.exe', Args: '"C:\Users\carlos\.ssh\github_rsa"', Working Directory: C:\Users\carlos\AppData\Local\Temp\
+2015-05-11 22:03:31.7682|INFO|thread:10|SSHKeyHelper|Found existing SSH key pair
+2015-05-11 22:03:35.2314|INFO|thread:10|SoftwareUpdateViewModel|Checking for new version
+2015-05-11 22:03:36.3563|INFO|thread: 5|AsyncReaderWriterLock|Acquiring concurrent lock for operation 1: 'GetRecentBranchNames' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:36.3563|INFO|thread:13|AsyncReaderWriterLock|Acquired concurrent lock for operation 1: 'GetRecentBranchNames' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:36.3720|INFO|thread:24|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:03:36.3720|INFO|thread:24|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:03:36.3720|INFO|thread:24|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'log -g --abbrev-commit --pretty=oneline HEAD -n 2500 ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:03:36.9345|INFO|thread:10|AsyncReaderWriterLock|Released concurrent lock for operation 1: 'GetRecentBranchNames' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:37.0439|INFO|thread: 5|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:03:37.0751|INFO|thread: 5|RepositoryConnection|Loaded '5' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:03:38.2626|INFO|thread:16|RepositoryConnection|Loaded '0' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:03:38.2783|INFO|thread: 1|RepositoryViewModel|Refreshing all information for repo
+2015-05-11 22:03:38.2939|INFO|thread:10|AsyncReaderWriterLock|Acquiring concurrent lock for operation 2: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:38.2939|INFO|thread: 5|AsyncReaderWriterLock|Acquired concurrent lock for operation 2: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:38.3876|INFO|thread:24|AsyncReaderWriterLock|Released concurrent lock for operation 2: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:38.4189|INFO|thread:16|AsyncReaderWriterLock|Acquiring concurrent lock for operation 3: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:38.4189|INFO|thread: 4|AsyncReaderWriterLock|Acquired concurrent lock for operation 3: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:38.4189|INFO|thread:25|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:03:38.4189|INFO|thread:25|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:03:38.4189|INFO|thread:25|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:03:38.4345|INFO|thread:13|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:03:38.4345|INFO|thread:13|RepositoryConnection|Loaded '0' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:03:38.4501|INFO|thread:10|AsyncReaderWriterLock|Acquiring concurrent lock for operation 4: 'MergeStatus' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:38.4501|INFO|thread:16|AsyncReaderWriterLock|Acquired concurrent lock for operation 4: 'MergeStatus' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:38.5752|INFO|thread:26|AsyncReaderWriterLock|Released concurrent lock for operation 4: 'MergeStatus' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:38.7470|INFO|thread:13|AsyncReaderWriterLock|Acquiring concurrent lock for operation 5: 'GetBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:38.7470|INFO|thread:13|AsyncReaderWriterLock|Acquired concurrent lock for operation 5: 'GetBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:38.7783|INFO|thread:10|AsyncReaderWriterLock|Released concurrent lock for operation 3: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:38.7939|INFO|thread: 4|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:03:38.7939|INFO|thread:10|AsyncReaderWriterLock|Acquiring concurrent lock for operation 6: 'GetUniqueCommits' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:38.7939|INFO|thread:10|AsyncReaderWriterLock|Acquired concurrent lock for operation 6: 'GetUniqueCommits' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:38.7939|INFO|thread: 4|RepositoryConnection|Loaded '18' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:03:39.0595|INFO|thread:27|AsyncReaderWriterLock|Released concurrent lock for operation 5: 'GetBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:39.0751|INFO|thread:28|AsyncReaderWriterLock|Released concurrent lock for operation 6: 'GetUniqueCommits' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:41.0386|INFO|thread: 1|SyncButtonViewModel|Getting ahead/behind counts but skipping the fetch.
+2015-05-11 22:03:41.0586|INFO|thread:27|RepositoryConnection|Detecting ahead/behind info for branch: master.
+2015-05-11 22:03:41.0716|INFO|thread:27|RepositoryConnection|branch stats: ahead 0, behind 0
+2015-05-11 22:03:41.1076|INFO|thread: 1|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:03:41.1076|INFO|thread: 1|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:03:41.1076|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'diff-tree --root -m -r -z --name-status 4a8a4c2b01462a0f25ff72c7518b5b8b005e098b ', Working Directory: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:03:41.1166|INFO|thread: 1|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:03:41.1166|INFO|thread: 1|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:03:41.1166|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'diff-tree --root -m -r -z --numstat 4a8a4c2b01462a0f25ff72c7518b5b8b005e098b ', Working Directory: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:03:41.1486|INFO|thread: 1|SyncButtonViewModel|Getting ahead/behind counts and running a full fetch.
+2015-05-11 22:03:41.1486|INFO|thread:26|AsyncReaderWriterLock|Acquiring concurrent lock for operation 7: 'FetchFromUpstreamRemote' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:41.1486|INFO|thread:26|AsyncReaderWriterLock|Acquired concurrent lock for operation 7: 'FetchFromUpstreamRemote' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:41.1636|INFO|thread:25|AsyncReaderWriterLock|Released concurrent lock for operation 7: 'FetchFromUpstreamRemote' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:41.1636|INFO|thread:23|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:03:41.1636|INFO|thread:23|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:03:41.1636|INFO|thread:23|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'fetch origin --prune ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:03:42.8051|INFO|thread:16|RepositoryConnection|Detecting ahead/behind info for branch: master.
+2015-05-11 22:03:42.8051|INFO|thread:16|RepositoryConnection|branch stats: ahead 0, behind 0
+2015-05-11 22:03:51.7998|INFO|thread: 1|RepositoryHost|Log in from cache for login 'Tenorio9' to host 'https://api.github.com/' SUCCEEDED
+2015-05-11 22:03:51.7998|INFO|thread: 1|SyncButtonViewModel|Starting sync for C:\xampp\htdocs\PHPDocumentos - master
+2015-05-11 22:03:51.8177|INFO|thread:23|AsyncReaderWriterLock|Acquiring exclusive lock for operation 8: 'SyncBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:51.8177|INFO|thread:10|AsyncReaderWriterLock|Acquired exclusive lock for operation 8: 'SyncBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:51.8481|INFO|thread:21|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:03:51.8481|INFO|thread:21|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:03:51.8481|INFO|thread:21|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'pull --progress --rebase --prune origin master ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:03:57.8536|INFO|thread:23|AsyncReaderWriterLock|Released exclusive lock for operation 8: 'SyncBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:57.8536|INFO|thread: 1|SyncButtonViewModel|Completing sync for C:\xampp\htdocs\PHPDocumentos - master
+2015-05-11 22:03:57.8536|INFO|thread:16|AsyncReaderWriterLock|Acquiring concurrent lock for operation 9: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:57.8536|INFO|thread:16|AsyncReaderWriterLock|Acquired concurrent lock for operation 9: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:57.9016|INFO|thread:21|AsyncReaderWriterLock|Released concurrent lock for operation 9: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:57.9016|INFO|thread:13|AsyncReaderWriterLock|Acquiring concurrent lock for operation 10: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:57.9016|INFO|thread:26|AsyncReaderWriterLock|Acquired concurrent lock for operation 10: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:57.9087|INFO|thread:10|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:03:57.9087|INFO|thread:18|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:03:57.9087|INFO|thread:18|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:03:57.9087|INFO|thread:18|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:03:57.9247|INFO|thread:10|RepositoryConnection|Loaded '0' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:03:57.9247|INFO|thread:10|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:03:57.9247|INFO|thread:10|RepositoryConnection|Loaded '18' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:03:57.9667|INFO|thread:16|AsyncReaderWriterLock|Released concurrent lock for operation 10: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:03:58.0437|INFO|thread: 1|SyncButtonViewModel|Getting ahead/behind counts but skipping the fetch.
+2015-05-11 22:03:58.0437|INFO|thread:16|RepositoryConnection|Detecting ahead/behind info for branch: master.
+2015-05-11 22:03:58.0497|INFO|thread:16|RepositoryConnection|branch stats: ahead 0, behind 0
+2015-05-11 22:04:12.4378|INFO|thread: 1|RepositoryHost|Log in from cache for login 'Tenorio9' to host 'https://api.github.com/' SUCCEEDED
+2015-05-11 22:04:12.4398|INFO|thread: 1|SyncButtonViewModel|Starting sync for C:\xampp\htdocs\PHPDocumentos - master
+2015-05-11 22:04:12.4398|INFO|thread:10|AsyncReaderWriterLock|Acquiring exclusive lock for operation 11: 'SyncBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:12.4398|INFO|thread: 5|AsyncReaderWriterLock|Acquired exclusive lock for operation 11: 'SyncBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:12.4398|INFO|thread:22|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:04:12.4398|INFO|thread:22|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:04:12.4398|INFO|thread:22|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'pull --progress --rebase --prune origin master ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:04:15.9420|INFO|thread:26|AsyncReaderWriterLock|Released exclusive lock for operation 11: 'SyncBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:15.9420|INFO|thread: 1|SyncButtonViewModel|Completing sync for C:\xampp\htdocs\PHPDocumentos - master
+2015-05-11 22:04:15.9420|INFO|thread:16|AsyncReaderWriterLock|Acquiring concurrent lock for operation 12: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:15.9420|INFO|thread:16|AsyncReaderWriterLock|Acquired concurrent lock for operation 12: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:15.9730|INFO|thread:22|AsyncReaderWriterLock|Released concurrent lock for operation 12: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:15.9730|INFO|thread:10|AsyncReaderWriterLock|Acquiring concurrent lock for operation 13: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:15.9730|INFO|thread: 4|AsyncReaderWriterLock|Acquired concurrent lock for operation 13: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:15.9730|INFO|thread:18|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:04:15.9730|INFO|thread:27|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:04:15.9730|INFO|thread:27|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:04:15.9730|INFO|thread:27|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:04:15.9870|INFO|thread:18|RepositoryConnection|Loaded '0' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:04:15.9870|INFO|thread:23|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:04:15.9870|INFO|thread:23|RepositoryConnection|Loaded '18' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:04:16.0190|INFO|thread:16|AsyncReaderWriterLock|Released concurrent lock for operation 13: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:16.1191|INFO|thread: 1|SyncButtonViewModel|Getting ahead/behind counts but skipping the fetch.
+2015-05-11 22:04:16.1191|INFO|thread:16|RepositoryConnection|Detecting ahead/behind info for branch: master.
+2015-05-11 22:04:16.1191|INFO|thread:16|RepositoryConnection|branch stats: ahead 0, behind 0
+2015-05-11 22:04:21.9851|INFO|thread: 1|RepositoryHost|Log in from cache for login 'Tenorio9' to host 'https://api.github.com/' SUCCEEDED
+2015-05-11 22:04:21.9861|INFO|thread: 1|SyncButtonViewModel|Starting sync for C:\xampp\htdocs\PHPDocumentos - master
+2015-05-11 22:04:21.9861|INFO|thread:23|AsyncReaderWriterLock|Acquiring exclusive lock for operation 14: 'SyncBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:21.9861|INFO|thread:24|AsyncReaderWriterLock|Acquired exclusive lock for operation 14: 'SyncBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:21.9861|INFO|thread:22|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:04:21.9861|INFO|thread:22|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:04:21.9861|INFO|thread:22|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'pull --progress --rebase --prune origin master ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:04:25.2331|INFO|thread:16|AsyncReaderWriterLock|Released exclusive lock for operation 14: 'SyncBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:25.2331|INFO|thread: 1|SyncButtonViewModel|Completing sync for C:\xampp\htdocs\PHPDocumentos - master
+2015-05-11 22:04:25.2331|INFO|thread:10|AsyncReaderWriterLock|Acquiring concurrent lock for operation 15: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:25.2331|INFO|thread: 5|AsyncReaderWriterLock|Acquired concurrent lock for operation 15: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:25.2661|INFO|thread:22|AsyncReaderWriterLock|Released concurrent lock for operation 15: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:25.2684|INFO|thread:13|AsyncReaderWriterLock|Acquiring concurrent lock for operation 16: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:25.2684|INFO|thread:10|AsyncReaderWriterLock|Acquired concurrent lock for operation 16: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:25.2684|INFO|thread:24|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:04:25.2684|INFO|thread:27|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:04:25.2684|INFO|thread:27|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:04:25.2684|INFO|thread:27|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:04:25.2684|INFO|thread:24|RepositoryConnection|Loaded '0' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:04:25.2844|INFO|thread:16|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:04:25.2844|INFO|thread:16|RepositoryConnection|Loaded '18' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:04:25.3144|INFO|thread:23|AsyncReaderWriterLock|Released concurrent lock for operation 16: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:25.3944|INFO|thread: 1|SyncButtonViewModel|Getting ahead/behind counts but skipping the fetch.
+2015-05-11 22:04:25.3944|INFO|thread:24|RepositoryConnection|Detecting ahead/behind info for branch: master.
+2015-05-11 22:04:25.3944|INFO|thread:24|RepositoryConnection|branch stats: ahead 0, behind 0
+2015-05-11 22:04:49.0685|INFO|thread: 1|RepositoryViewModel|Refreshing all information for repo
+2015-05-11 22:04:49.0685|INFO|thread:22|AsyncReaderWriterLock|Acquiring concurrent lock for operation 17: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:49.0685|INFO|thread:27|AsyncReaderWriterLock|Acquired concurrent lock for operation 17: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:49.0997|INFO|thread:29|AsyncReaderWriterLock|Released concurrent lock for operation 17: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:49.0997|INFO|thread:28|AsyncReaderWriterLock|Acquiring concurrent lock for operation 18: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:49.0997|INFO|thread:22|AsyncReaderWriterLock|Acquired concurrent lock for operation 18: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:49.1153|INFO|thread:30|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:04:49.1153|INFO|thread:31|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:04:49.1153|INFO|thread:31|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:04:49.1153|INFO|thread:31|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:04:49.1153|INFO|thread:30|RepositoryConnection|Loaded '0' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:04:49.1466|INFO|thread:30|AsyncReaderWriterLock|Released concurrent lock for operation 18: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:49.1466|INFO|thread:27|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:04:49.1622|INFO|thread:27|RepositoryConnection|Loaded '18' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:04:49.2559|INFO|thread: 1|SyncButtonViewModel|Getting ahead/behind counts but skipping the fetch.
+2015-05-11 22:04:49.2559|INFO|thread:30|RepositoryConnection|Detecting ahead/behind info for branch: master.
+2015-05-11 22:04:49.2559|INFO|thread:30|RepositoryConnection|branch stats: ahead 0, behind 0
+2015-05-11 22:04:55.5344|INFO|thread: 1|RepositoryViewModel|Refreshing all information for repo
+2015-05-11 22:04:55.5344|INFO|thread:29|AsyncReaderWriterLock|Acquiring concurrent lock for operation 19: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:55.5344|INFO|thread:33|AsyncReaderWriterLock|Acquired concurrent lock for operation 19: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:55.5674|INFO|thread:34|AsyncReaderWriterLock|Released concurrent lock for operation 19: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:55.6065|INFO|thread:27|AsyncReaderWriterLock|Acquiring concurrent lock for operation 20: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:55.6065|INFO|thread:27|AsyncReaderWriterLock|Acquired concurrent lock for operation 20: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:55.6135|INFO|thread:31|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:04:55.6135|INFO|thread:34|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:04:55.6135|INFO|thread:34|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:04:55.6135|INFO|thread:34|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:04:55.6135|INFO|thread:31|RepositoryConnection|Loaded '0' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:04:55.6335|INFO|thread:31|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:04:55.6335|INFO|thread:31|RepositoryConnection|Loaded '18' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:04:55.6725|INFO|thread:33|AsyncReaderWriterLock|Released concurrent lock for operation 20: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:04:55.7826|INFO|thread: 1|SyncButtonViewModel|Getting ahead/behind counts but skipping the fetch.
+2015-05-11 22:04:55.7876|INFO|thread:28|RepositoryConnection|Detecting ahead/behind info for branch: master.
+2015-05-11 22:04:55.7876|INFO|thread:28|RepositoryConnection|branch stats: ahead 0, behind 0
+2015-05-11 22:05:54.9275|INFO|thread: 1|RepositoryModel|Cloning repo https://github.com/hernandezbb/PHPDocumentos.git
+2015-05-11 22:05:54.9275|INFO|thread:27|AsyncReaderWriterLock|Acquiring exclusive lock for operation 21: 'CloneRepository' on resource C:\xampp\htdocs
+2015-05-11 22:05:54.9275|INFO|thread:29|AsyncReaderWriterLock|Acquired exclusive lock for operation 21: 'CloneRepository' on resource C:\xampp\htdocs
+2015-05-11 22:05:54.9585|INFO|thread:43|GitLfsSmudgeTail|Setting Git LFS smudge progress environment variable
+2015-05-11 22:05:54.9816|INFO|thread:43|ExclusiveOperation|Cloning 'https://github.com/hernandezbb/PHPDocumentos.git' to 'PHPDocumentos' in directory 'C:\xampp\htdocs
+2015-05-11 22:05:54.9876|INFO|thread:43|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:05:54.9876|INFO|thread:43|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:05:54.9876|INFO|thread:43|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'clone --progress --recursive  --  "https://github.com/hernandezbb/PHPDocumentos.git" "PHPDocumentos" ', Working Directory: C:\xampp\htdocs
+2015-05-11 22:06:00.4201|INFO|thread:38|GitLfsSmudgeTail|Cleaning up Git LFS smudge progress environment variable
+2015-05-11 22:06:00.4201|INFO|thread:38|AsyncReaderWriterLock|Released exclusive lock for operation 21: 'CloneRepository' on resource C:\xampp\htdocs
+2015-05-11 22:06:00.4291|INFO|thread:47|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:06:00.4291|INFO|thread:47|RepositoryConnection|Loaded '5' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:06:00.4291|INFO|thread:46|RepositoryConnection|Setting up remote 'bhbarquero' 'with url = https://github.com/bhbarquero/PHPDocumentos.git for this repo 'System.Reactive.Linq.ObservableImpl.Defer`1[System.String]'
+2015-05-11 22:06:00.4732|INFO|thread:37|AsyncReaderWriterLock|Acquiring concurrent lock for operation 22: 'GetRecentBranchNames' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:00.4732|INFO|thread:37|AsyncReaderWriterLock|Acquired concurrent lock for operation 22: 'GetRecentBranchNames' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:00.4732|INFO|thread: 1|RepositoryViewModel|Refreshing all information for repo
+2015-05-11 22:06:00.4732|INFO|thread:43|AsyncReaderWriterLock|Acquiring concurrent lock for operation 23: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:00.4732|INFO|thread:43|AsyncReaderWriterLock|Acquired concurrent lock for operation 23: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:00.4962|INFO|thread:49|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:06:00.4962|INFO|thread:49|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:06:00.4962|INFO|thread:49|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'log -g --abbrev-commit --pretty=oneline HEAD -n 2500 ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:06:00.5102|INFO|thread:50|AsyncReaderWriterLock|Released concurrent lock for operation 23: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:00.5102|INFO|thread:29|AsyncReaderWriterLock|Acquiring concurrent lock for operation 24: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:00.5102|INFO|thread:46|AsyncReaderWriterLock|Acquired concurrent lock for operation 24: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:00.5222|INFO|thread:47|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:06:00.5222|INFO|thread:51|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:06:00.5222|INFO|thread:51|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:06:00.5222|INFO|thread:51|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:06:00.5222|INFO|thread:47|RepositoryConnection|Loaded '0' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:06:00.5372|INFO|thread:47|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:06:00.5372|INFO|thread:27|AsyncReaderWriterLock|Released concurrent lock for operation 22: 'GetRecentBranchNames' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:00.5372|INFO|thread:39|AsyncReaderWriterLock|Acquiring concurrent lock for operation 25: 'MergeStatus' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:00.5372|INFO|thread:39|AsyncReaderWriterLock|Acquired concurrent lock for operation 25: 'MergeStatus' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:00.5372|INFO|thread:38|AsyncReaderWriterLock|Acquiring concurrent lock for operation 26: 'GetBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:00.5372|INFO|thread:38|AsyncReaderWriterLock|Acquired concurrent lock for operation 26: 'GetBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:00.5372|INFO|thread:47|RepositoryConnection|Loaded '22' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:06:00.5592|INFO|thread:52|RepositoryConnection|Loaded '0' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:06:00.5642|INFO|thread:53|AsyncReaderWriterLock|Released concurrent lock for operation 25: 'MergeStatus' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:00.5642|INFO|thread:37|AsyncReaderWriterLock|Acquiring concurrent lock for operation 27: 'GetUniqueCommits' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:00.5642|INFO|thread:37|AsyncReaderWriterLock|Acquired concurrent lock for operation 27: 'GetUniqueCommits' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:00.5642|INFO|thread:54|AsyncReaderWriterLock|Released concurrent lock for operation 26: 'GetBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:00.5642|INFO|thread:55|AsyncReaderWriterLock|Released concurrent lock for operation 27: 'GetUniqueCommits' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:00.6233|INFO|thread:29|AsyncReaderWriterLock|Released concurrent lock for operation 24: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:00.6953|INFO|thread: 1|SyncButtonViewModel|Getting ahead/behind counts but skipping the fetch.
+2015-05-11 22:06:00.6953|INFO|thread:29|RepositoryConnection|Detecting ahead/behind info for branch: master.
+2015-05-11 22:06:00.6953|INFO|thread:29|RepositoryConnection|branch stats: ahead 0, behind 0
+2015-05-11 22:06:00.9315|INFO|thread: 1|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:06:00.9315|INFO|thread: 1|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:06:00.9315|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'diff-tree --root -m -r -z --name-status 831c1ca1282e18c3490d440f0304eb96a9ed491b ', Working Directory: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:06:00.9315|INFO|thread: 1|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:06:00.9315|INFO|thread: 1|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:06:00.9315|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'diff-tree --root -m -r -z --numstat 831c1ca1282e18c3490d440f0304eb96a9ed491b ', Working Directory: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:06:00.9415|INFO|thread: 1|SyncButtonViewModel|Getting ahead/behind counts and running a full fetch.
+2015-05-11 22:06:00.9415|INFO|thread:48|AsyncReaderWriterLock|Acquiring concurrent lock for operation 28: 'FetchFromUpstreamRemote' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:00.9415|INFO|thread:48|AsyncReaderWriterLock|Acquired concurrent lock for operation 28: 'FetchFromUpstreamRemote' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:00.9415|INFO|thread:39|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:06:00.9415|INFO|thread:39|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:06:00.9415|INFO|thread:39|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'fetch origin --prune ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:06:00.9625|INFO|thread:54|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:06:00.9625|INFO|thread:54|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:06:00.9625|INFO|thread:54|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'fetch --prune --recurse-submodules=on-demand bhbarquero ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:06:02.1254|INFO|thread:49|AsyncReaderWriterLock|Released concurrent lock for operation 28: 'FetchFromUpstreamRemote' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:02.1284|INFO|thread:52|RepositoryConnection|Detecting ahead/behind info for branch: master.
+2015-05-11 22:06:02.1284|INFO|thread:52|RepositoryConnection|branch stats: ahead 0, behind 0
+2015-05-11 22:06:05.1063|INFO|thread: 1|RepositoryHost|Log in from cache for login 'Tenorio9' to host 'https://api.github.com/' SUCCEEDED
+2015-05-11 22:06:05.1063|INFO|thread: 1|SyncButtonViewModel|Starting sync for C:\xampp\htdocs\PHPDocumentos - master
+2015-05-11 22:06:05.1063|INFO|thread:52|AsyncReaderWriterLock|Acquiring exclusive lock for operation 29: 'SyncBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:05.1063|INFO|thread:51|AsyncReaderWriterLock|Acquired exclusive lock for operation 29: 'SyncBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:05.1154|INFO|thread:42|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:06:05.1154|INFO|thread:42|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:06:05.1154|INFO|thread:42|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'pull --progress --rebase --prune origin master ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:06:08.6187|INFO|thread:48|AsyncReaderWriterLock|Released exclusive lock for operation 29: 'SyncBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:08.6187|INFO|thread: 1|SyncButtonViewModel|Completing sync for C:\xampp\htdocs\PHPDocumentos - master
+2015-05-11 22:06:08.6187|INFO|thread:43|AsyncReaderWriterLock|Acquiring concurrent lock for operation 30: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:08.6187|INFO|thread:35|AsyncReaderWriterLock|Acquired concurrent lock for operation 30: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:08.6407|INFO|thread:42|AsyncReaderWriterLock|Released concurrent lock for operation 30: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:08.6428|INFO|thread:51|AsyncReaderWriterLock|Acquiring concurrent lock for operation 31: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:08.6428|INFO|thread:49|AsyncReaderWriterLock|Acquired concurrent lock for operation 31: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:08.6428|INFO|thread:43|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:06:08.6428|INFO|thread:36|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:06:08.6428|INFO|thread:36|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:06:08.6428|INFO|thread:36|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:06:08.6608|INFO|thread:43|RepositoryConnection|Loaded '0' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:06:08.6608|INFO|thread:39|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:06:08.6608|INFO|thread:39|RepositoryConnection|Loaded '22' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:06:08.6978|INFO|thread:28|AsyncReaderWriterLock|Released concurrent lock for operation 31: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:06:08.8019|INFO|thread: 1|SyncButtonViewModel|Getting ahead/behind counts but skipping the fetch.
+2015-05-11 22:06:08.8019|INFO|thread:53|RepositoryConnection|Detecting ahead/behind info for branch: master.
+2015-05-11 22:06:08.8019|INFO|thread:53|RepositoryConnection|branch stats: ahead 0, behind 0
+2015-05-11 22:09:31.9879|INFO|thread: 1|RepositoryViewModel|Refreshing all information for repo
+2015-05-11 22:09:31.9879|INFO|thread:51|AsyncReaderWriterLock|Acquiring concurrent lock for operation 32: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:09:31.9879|INFO|thread:36|AsyncReaderWriterLock|Acquired concurrent lock for operation 32: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:09:32.0179|INFO|thread:34|AsyncReaderWriterLock|Released concurrent lock for operation 32: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:09:32.0179|INFO|thread:51|AsyncReaderWriterLock|Acquiring concurrent lock for operation 33: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:09:32.0179|INFO|thread:43|AsyncReaderWriterLock|Acquired concurrent lock for operation 33: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:09:32.0179|INFO|thread:36|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:09:32.0399|INFO|thread:33|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:09:32.0399|INFO|thread:33|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:09:32.0399|INFO|thread:33|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:09:32.0399|INFO|thread:36|RepositoryConnection|Loaded '0' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:09:32.0919|INFO|thread:56|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:09:32.0989|INFO|thread:56|RepositoryConnection|Loaded '22' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:09:32.1690|INFO|thread:36|AsyncReaderWriterLock|Released concurrent lock for operation 33: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:09:32.3081|INFO|thread: 1|SyncButtonViewModel|Getting ahead/behind counts but skipping the fetch.
+2015-05-11 22:09:32.3081|INFO|thread:43|RepositoryConnection|Detecting ahead/behind info for branch: master.
+2015-05-11 22:09:32.3081|INFO|thread:43|RepositoryConnection|branch stats: ahead 0, behind 0
+2015-05-11 22:09:32.3151|INFO|thread: 1|SyncButtonViewModel|Getting ahead/behind counts and running a full fetch.
+2015-05-11 22:09:32.3151|INFO|thread:56|AsyncReaderWriterLock|Acquiring concurrent lock for operation 34: 'FetchFromUpstreamRemote' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:09:32.3151|INFO|thread:56|AsyncReaderWriterLock|Acquired concurrent lock for operation 34: 'FetchFromUpstreamRemote' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:09:32.3151|INFO|thread:43|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:09:32.3151|INFO|thread:43|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:09:32.3151|INFO|thread:43|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'fetch origin --prune ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:09:32.3301|INFO|thread:31|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:09:32.3301|INFO|thread:31|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:09:32.3301|INFO|thread:31|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'fetch --prune --recurse-submodules=on-demand bhbarquero ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:09:33.3647|INFO|thread:31|AsyncReaderWriterLock|Released concurrent lock for operation 34: 'FetchFromUpstreamRemote' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:09:33.3647|INFO|thread:43|RepositoryConnection|Detecting ahead/behind info for branch: master.
+2015-05-11 22:09:33.3647|INFO|thread:43|RepositoryConnection|branch stats: ahead 0, behind 0
+2015-05-11 22:09:35.9851|INFO|thread: 1|RepositoryViewModel|Created Shadow Backup for Repo: C:\xampp\htdocs\PHPDocumentos => 0d7a40dd7916ed76eaf7253b0acef9c278634dd5 in 3,833ms
+2015-05-11 22:09:47.4596|INFO|thread: 1|RepositoryHost|Log in from cache for login 'Tenorio9' to host 'https://api.github.com/' SUCCEEDED
+2015-05-11 22:09:47.4596|INFO|thread: 1|SyncButtonViewModel|Starting sync for C:\xampp\htdocs\PHPDocumentos - master
+2015-05-11 22:09:47.4596|INFO|thread:49|AsyncReaderWriterLock|Acquiring exclusive lock for operation 35: 'SyncBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:09:47.4596|INFO|thread:56|AsyncReaderWriterLock|Acquired exclusive lock for operation 35: 'SyncBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:09:47.4756|INFO|thread:41|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:09:47.4756|INFO|thread:41|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:09:47.4756|INFO|thread:41|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'pull --progress --rebase --prune origin master ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:09:48.3609|INFO|thread:31|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:09:48.3609|INFO|thread:31|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:09:48.3609|INFO|thread:31|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'pull --progress --prune origin master ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:09:50.5454|INFO|thread:31|AsyncReaderWriterLock|Released exclusive lock for operation 35: 'SyncBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:09:50.5454|INFO|thread: 1|SyncButtonViewModel|Completing sync for C:\xampp\htdocs\PHPDocumentos - master
+2015-05-11 22:09:50.5454|INFO|thread:51|AsyncReaderWriterLock|Acquiring concurrent lock for operation 36: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:09:50.5454|INFO|thread:42|AsyncReaderWriterLock|Acquired concurrent lock for operation 36: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:09:50.5795|INFO|thread:50|AsyncReaderWriterLock|Released concurrent lock for operation 36: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:09:50.5815|INFO|thread:56|AsyncReaderWriterLock|Acquiring concurrent lock for operation 37: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:09:50.5815|INFO|thread:51|AsyncReaderWriterLock|Acquired concurrent lock for operation 37: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:09:50.5815|INFO|thread:36|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:09:50.5815|INFO|thread:53|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:09:50.5815|INFO|thread:53|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:09:50.5815|INFO|thread:53|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:09:50.5985|INFO|thread:36|RepositoryConnection|Loaded '0' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:09:50.5985|INFO|thread:36|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:09:50.6115|INFO|thread:36|RepositoryConnection|Loaded '22' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:09:50.6525|INFO|thread:31|AsyncReaderWriterLock|Released concurrent lock for operation 37: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:09:50.7816|INFO|thread: 1|SyncButtonViewModel|Getting ahead/behind counts but skipping the fetch.
+2015-05-11 22:09:50.7866|INFO|thread:42|RepositoryConnection|Detecting ahead/behind info for branch: master.
+2015-05-11 22:09:50.7866|INFO|thread:42|RepositoryConnection|branch stats: ahead 0, behind 0
+2015-05-11 22:09:54.4077|INFO|thread: 1|RepositoryHost|Log in from cache for login 'Tenorio9' to host 'https://api.github.com/' SUCCEEDED
+2015-05-11 22:09:54.4097|INFO|thread: 1|SyncButtonViewModel|Starting sync for C:\xampp\htdocs\PHPDocumentos - master
+2015-05-11 22:09:54.4097|INFO|thread:56|AsyncReaderWriterLock|Acquiring exclusive lock for operation 38: 'SyncBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:09:54.4097|INFO|thread:56|AsyncReaderWriterLock|Acquired exclusive lock for operation 38: 'SyncBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:09:54.4237|INFO|thread:50|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:09:54.4237|INFO|thread:50|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:09:54.4237|INFO|thread:50|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'pull --progress --rebase --prune origin master ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:09:55.3600|INFO|thread:30|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:09:55.3600|INFO|thread:30|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:09:55.3600|INFO|thread:30|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'pull --progress --prune origin master ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:09:57.4053|INFO|thread:33|AsyncReaderWriterLock|Released exclusive lock for operation 38: 'SyncBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:09:57.4053|INFO|thread: 1|SyncButtonViewModel|Completing sync for C:\xampp\htdocs\PHPDocumentos - master
+2015-05-11 22:09:57.4053|INFO|thread:56|AsyncReaderWriterLock|Acquiring concurrent lock for operation 39: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:09:57.4053|INFO|thread:31|AsyncReaderWriterLock|Acquired concurrent lock for operation 39: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:09:57.4423|INFO|thread:50|AsyncReaderWriterLock|Released concurrent lock for operation 39: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:09:57.4423|INFO|thread:36|AsyncReaderWriterLock|Acquiring concurrent lock for operation 40: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:09:57.4423|INFO|thread:33|AsyncReaderWriterLock|Acquired concurrent lock for operation 40: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:09:57.4423|INFO|thread:56|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:09:57.4553|INFO|thread:52|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:09:57.4553|INFO|thread:52|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:09:57.4553|INFO|thread:52|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:09:57.4553|INFO|thread:56|RepositoryConnection|Loaded '0' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:09:57.5040|INFO|thread:36|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:09:57.5040|INFO|thread:36|RepositoryConnection|Loaded '22' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:09:57.5040|INFO|thread:56|AsyncReaderWriterLock|Released concurrent lock for operation 40: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:09:57.6861|INFO|thread: 1|SyncButtonViewModel|Getting ahead/behind counts but skipping the fetch.
+2015-05-11 22:09:57.6911|INFO|thread:31|RepositoryConnection|Detecting ahead/behind info for branch: master.
+2015-05-11 22:09:57.6911|INFO|thread:31|RepositoryConnection|branch stats: ahead 0, behind 0
+2015-05-11 22:10:08.0391|INFO|thread: 1|RepositoryViewModel|Refreshing all information for repo
+2015-05-11 22:10:08.0391|INFO|thread:36|AsyncReaderWriterLock|Acquiring concurrent lock for operation 41: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:10:08.0391|INFO|thread:56|AsyncReaderWriterLock|Acquired concurrent lock for operation 41: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:10:08.0691|INFO|thread:41|AsyncReaderWriterLock|Released concurrent lock for operation 41: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:10:08.0691|INFO|thread:31|AsyncReaderWriterLock|Acquiring concurrent lock for operation 42: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:10:08.0691|INFO|thread:33|AsyncReaderWriterLock|Acquired concurrent lock for operation 42: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:10:08.0691|INFO|thread:56|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:10:08.0811|INFO|thread:50|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:10:08.0811|INFO|thread:50|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:10:08.0811|INFO|thread:50|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:10:08.0811|INFO|thread:56|RepositoryConnection|Loaded '0' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:10:08.1253|INFO|thread:32|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:10:08.1333|INFO|thread:32|RepositoryConnection|Loaded '22' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:10:08.1333|INFO|thread:56|AsyncReaderWriterLock|Released concurrent lock for operation 42: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:10:08.2814|INFO|thread: 1|SyncButtonViewModel|Getting ahead/behind counts but skipping the fetch.
+2015-05-11 22:10:08.2874|INFO|thread:53|RepositoryConnection|Detecting ahead/behind info for branch: master.
+2015-05-11 22:10:08.2874|INFO|thread:53|RepositoryConnection|branch stats: ahead 0, behind 0
+2015-05-11 22:10:29.1380|INFO|thread:32|AsyncReaderWriterLock|Acquiring exclusive lock for operation 43: 'DiscardChanges' on resource C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:10:29.1380|INFO|thread:43|AsyncReaderWriterLock|Acquired exclusive lock for operation 43: 'DiscardChanges' on resource C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:10:29.1460|INFO|thread:41|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:10:29.1460|INFO|thread:41|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:10:29.1460|INFO|thread:41|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'checkout HEAD -- "data/ModeloPrograWeb.s3db" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:10:29.1889|INFO|thread:56|AsyncReaderWriterLock|Released exclusive lock for operation 43: 'DiscardChanges' on resource C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:10:29.2549|INFO|thread: 1|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:10:29.2549|INFO|thread: 1|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:10:29.2549|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'diff-tree --root -m -r -z --name-status 831c1ca1282e18c3490d440f0304eb96a9ed491b ', Working Directory: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:10:29.2549|INFO|thread: 1|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:10:29.2549|INFO|thread: 1|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:10:29.2549|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'diff-tree --root -m -r -z --numstat 831c1ca1282e18c3490d440f0304eb96a9ed491b ', Working Directory: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:10:34.2095|INFO|thread: 1|RepositoryHost|Log in from cache for login 'Tenorio9' to host 'https://api.github.com/' SUCCEEDED
+2015-05-11 22:10:34.2205|INFO|thread: 1|SyncButtonViewModel|Starting sync for C:\xampp\htdocs\PHPDocumentos - master
+2015-05-11 22:10:34.2205|INFO|thread:53|AsyncReaderWriterLock|Acquiring exclusive lock for operation 44: 'SyncBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:10:34.2205|INFO|thread:49|AsyncReaderWriterLock|Acquired exclusive lock for operation 44: 'SyncBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:10:34.2205|INFO|thread:55|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:10:34.2205|INFO|thread:55|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:10:34.2205|INFO|thread:55|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'pull --progress --rebase --prune origin master ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:10:37.6786|INFO|thread:53|AsyncReaderWriterLock|Released exclusive lock for operation 44: 'SyncBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:10:37.6786|INFO|thread: 1|SyncButtonViewModel|Completing sync for C:\xampp\htdocs\PHPDocumentos - master
+2015-05-11 22:10:37.6786|INFO|thread:32|AsyncReaderWriterLock|Acquiring concurrent lock for operation 45: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:10:37.6786|INFO|thread:43|AsyncReaderWriterLock|Acquired concurrent lock for operation 45: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:10:37.7106|INFO|thread: 4|AsyncReaderWriterLock|Released concurrent lock for operation 45: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:10:37.7106|INFO|thread:33|AsyncReaderWriterLock|Acquiring concurrent lock for operation 46: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:10:37.7106|INFO|thread:49|AsyncReaderWriterLock|Acquired concurrent lock for operation 46: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:10:37.7106|INFO|thread:36|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:10:37.7226|INFO|thread:30|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:10:37.7226|INFO|thread:30|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:10:37.7226|INFO|thread:30|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:10:37.7226|INFO|thread:36|RepositoryConnection|Loaded '0' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:10:37.7376|INFO|thread:33|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:10:37.7376|INFO|thread:33|RepositoryConnection|Loaded '22' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:10:37.7826|INFO|thread:53|AsyncReaderWriterLock|Released concurrent lock for operation 46: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:10:37.9217|INFO|thread: 1|SyncButtonViewModel|Getting ahead/behind counts but skipping the fetch.
+2015-05-11 22:10:37.9257|INFO|thread:49|RepositoryConnection|Detecting ahead/behind info for branch: master.
+2015-05-11 22:10:37.9257|INFO|thread:49|RepositoryConnection|branch stats: ahead 0, behind 0
+2015-05-11 22:55:42.4951|INFO|thread: 1|RepositoryViewModel|Refreshing all information for repo
+2015-05-11 22:55:42.4951|INFO|thread:22|AsyncReaderWriterLock|Acquiring concurrent lock for operation 47: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:55:42.4951|INFO|thread:22|AsyncReaderWriterLock|Acquired concurrent lock for operation 47: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:55:42.5391|INFO|thread:31|AsyncReaderWriterLock|Released concurrent lock for operation 47: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:55:42.5391|INFO|thread:30|AsyncReaderWriterLock|Acquiring concurrent lock for operation 48: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:55:42.5391|INFO|thread:53|AsyncReaderWriterLock|Acquired concurrent lock for operation 48: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:55:42.5491|INFO|thread:30|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:55:42.5491|INFO|thread:17|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:55:42.5491|INFO|thread:17|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:55:42.5491|INFO|thread:17|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:55:42.6192|INFO|thread:30|RepositoryConnection|Loaded '0' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:55:42.6292|INFO|thread:22|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 22:55:42.6292|INFO|thread:32|AsyncReaderWriterLock|Released concurrent lock for operation 48: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:55:42.6292|INFO|thread:22|RepositoryConnection|Loaded '22' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 22:55:42.7383|INFO|thread: 1|RepositoryViewModel|Created Shadow Backup for Repo: C:\xampp\htdocs\PHPDocumentos => 5cb78110f9df44b46e45df4c4fd02fc48e2b79b5 in 109ms
+2015-05-11 22:55:42.8744|INFO|thread: 1|SyncButtonViewModel|Getting ahead/behind counts but skipping the fetch.
+2015-05-11 22:55:42.8784|INFO|thread:53|RepositoryConnection|Detecting ahead/behind info for branch: master.
+2015-05-11 22:55:42.8784|INFO|thread:53|RepositoryConnection|branch stats: ahead 0, behind 0
+2015-05-11 22:55:42.8784|INFO|thread: 1|SyncButtonViewModel|Getting ahead/behind counts and running a full fetch.
+2015-05-11 22:55:42.8784|INFO|thread:30|AsyncReaderWriterLock|Acquiring concurrent lock for operation 49: 'FetchFromUpstreamRemote' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:55:42.8784|INFO|thread:30|AsyncReaderWriterLock|Acquired concurrent lock for operation 49: 'FetchFromUpstreamRemote' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:55:42.8994|INFO|thread:43|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:55:42.8994|INFO|thread:43|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:55:42.8994|INFO|thread:43|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'fetch origin --prune ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:55:42.8994|INFO|thread:17|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 22:55:42.8994|INFO|thread:17|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 22:55:42.8994|INFO|thread:17|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'fetch --prune --recurse-submodules=on-demand bhbarquero ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 22:55:44.0443|INFO|thread:53|AsyncReaderWriterLock|Released concurrent lock for operation 49: 'FetchFromUpstreamRemote' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 22:55:44.0523|INFO|thread:43|RepositoryConnection|Detecting ahead/behind info for branch: master.
+2015-05-11 22:55:44.0523|INFO|thread:43|RepositoryConnection|branch stats: ahead 0, behind 0
+2015-05-11 23:44:00.3265|INFO|thread: 1|RepositoryViewModel|Refreshing all information for repo
+2015-05-11 23:44:00.3265|INFO|thread:45|AsyncReaderWriterLock|Acquiring concurrent lock for operation 50: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:44:00.3265|INFO|thread:31|AsyncReaderWriterLock|Acquired concurrent lock for operation 50: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:44:00.3535|INFO|thread:30|AsyncReaderWriterLock|Released concurrent lock for operation 50: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:44:00.3535|INFO|thread:45|AsyncReaderWriterLock|Acquiring concurrent lock for operation 51: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:44:00.3535|INFO|thread: 4|AsyncReaderWriterLock|Acquired concurrent lock for operation 51: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:44:00.3614|INFO|thread:49|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 23:44:00.3614|INFO|thread:53|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:44:00.3614|INFO|thread:53|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:44:00.3614|INFO|thread:53|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:44:00.3614|INFO|thread:49|RepositoryConnection|Loaded '0' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 23:44:00.5759|INFO|thread:45|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 23:44:00.5829|INFO|thread:45|RepositoryConnection|Loaded '22' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 23:44:00.6920|INFO|thread:49|AsyncReaderWriterLock|Released concurrent lock for operation 51: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:44:00.8111|INFO|thread: 1|RepositoryViewModel|Created Shadow Backup for Repo: C:\xampp\htdocs\PHPDocumentos => 40603c0b0af7c28b6d97d543817e4f6ef8e04cb0 in 120ms
+2015-05-11 23:44:00.8661|INFO|thread: 1|SyncButtonViewModel|Getting ahead/behind counts but skipping the fetch.
+2015-05-11 23:44:00.8661|INFO|thread:49|RepositoryConnection|Detecting ahead/behind info for branch: master.
+2015-05-11 23:44:00.8661|INFO|thread:49|RepositoryConnection|branch stats: ahead 0, behind 0
+2015-05-11 23:44:00.8661|INFO|thread: 1|SyncButtonViewModel|Getting ahead/behind counts and running a full fetch.
+2015-05-11 23:44:00.8661|INFO|thread:49|AsyncReaderWriterLock|Acquiring concurrent lock for operation 52: 'FetchFromUpstreamRemote' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:44:00.8661|INFO|thread:45|AsyncReaderWriterLock|Acquired concurrent lock for operation 52: 'FetchFromUpstreamRemote' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:44:00.8821|INFO|thread: 4|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:44:00.8821|INFO|thread: 4|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:44:00.8821|INFO|thread: 4|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'fetch origin --prune ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:44:00.8821|INFO|thread:53|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:44:00.8821|INFO|thread:53|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:44:00.8821|INFO|thread:53|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'fetch --prune --recurse-submodules=on-demand bhbarquero ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:44:02.8611|INFO|thread:43|AsyncReaderWriterLock|Released concurrent lock for operation 52: 'FetchFromUpstreamRemote' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:44:04.0632|INFO|thread:33|RepositoryConnection|Detecting ahead/behind info for branch: master.
+2015-05-11 23:44:04.0662|INFO|thread:33|RepositoryConnection|branch stats: ahead 0, behind 2
+2015-05-11 23:44:10.9209|INFO|thread: 1|RepositoryViewModel|Refreshing all information for repo
+2015-05-11 23:44:10.9209|INFO|thread:45|AsyncReaderWriterLock|Acquiring concurrent lock for operation 53: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:44:10.9209|INFO|thread:45|AsyncReaderWriterLock|Acquired concurrent lock for operation 53: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:44:10.9596|INFO|thread:50|AsyncReaderWriterLock|Released concurrent lock for operation 53: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:44:10.9596|INFO|thread:31|AsyncReaderWriterLock|Acquiring concurrent lock for operation 54: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:44:10.9596|INFO|thread:31|AsyncReaderWriterLock|Acquired concurrent lock for operation 54: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:44:10.9596|INFO|thread:43|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 23:44:10.9826|INFO|thread:47|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:44:10.9826|INFO|thread:47|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:44:10.9826|INFO|thread:47|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:44:10.9826|INFO|thread:43|RepositoryConnection|Loaded '0' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 23:44:10.9916|INFO|thread:51|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 23:44:10.9916|INFO|thread:51|RepositoryConnection|Loaded '22' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 23:44:11.2978|INFO|thread:33|AsyncReaderWriterLock|Released concurrent lock for operation 54: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:44:11.3428|INFO|thread: 1|SyncButtonViewModel|Getting ahead/behind counts but skipping the fetch.
+2015-05-11 23:44:11.3468|INFO|thread:31|RepositoryConnection|Detecting ahead/behind info for branch: master.
+2015-05-11 23:44:11.3468|INFO|thread:31|RepositoryConnection|branch stats: ahead 0, behind 2
+2015-05-11 23:45:25.7498|INFO|thread:33|AsyncReaderWriterLock|Acquiring exclusive lock for operation 55: 'CreateCommit' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:45:25.7498|INFO|thread:48|AsyncReaderWriterLock|Acquired exclusive lock for operation 55: 'CreateCommit' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:45:25.7668|INFO|thread:52|ExclusiveRepositoryConnection|Creating Commit
+2015-05-11 23:45:25.7918|INFO|thread:52|ExclusiveRepositoryConnection|Creating new commit with 11 file(s). Agregar imagenes para los archivos
+2015-05-11 23:45:25.8028|INFO|thread:52|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:45:25.8028|INFO|thread:52|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:45:25.8028|INFO|thread:52|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "data/ModeloPrograWeb.s3db" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:45:25.9039|INFO|thread:33|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:45:25.9039|INFO|thread:33|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:45:25.9039|INFO|thread:33|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "img/css.png" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:45:25.9739|INFO|thread:33|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:45:25.9739|INFO|thread:33|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:45:25.9739|INFO|thread:33|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "img/doc.png" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:45:26.0323|INFO|thread:33|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:45:26.0323|INFO|thread:33|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:45:26.0323|INFO|thread:33|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "img/html.png" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:45:26.0915|INFO|thread:33|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:45:26.0915|INFO|thread:33|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:45:26.0915|INFO|thread:33|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "img/mp3.png" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:45:26.1586|INFO|thread:33|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:45:26.1586|INFO|thread:33|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:45:26.1586|INFO|thread:33|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "img/pdf.png" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:45:26.2226|INFO|thread:33|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:45:26.2226|INFO|thread:33|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:45:26.2226|INFO|thread:33|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "img/ppt.png" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:45:26.2857|INFO|thread:33|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:45:26.2857|INFO|thread:33|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:45:26.2857|INFO|thread:33|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "img/sql.png" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:45:26.3487|INFO|thread:33|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:45:26.3487|INFO|thread:33|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:45:26.3487|INFO|thread:33|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "img/txt.png" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:45:26.4183|INFO|thread:33|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:45:26.4183|INFO|thread:33|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:45:26.4183|INFO|thread:33|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "img/xls.png" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:45:26.4779|INFO|thread:33|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:45:26.4779|INFO|thread:33|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:45:26.4779|INFO|thread:33|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "views/partials/archivos.html" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:45:26.5438|INFO|thread:33|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:45:26.5438|INFO|thread:33|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:45:26.5438|INFO|thread:33|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'commit -F "C:\Users\carlos\AppData\Local\Temp\tmp8918.tmp" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:45:26.7769|INFO|thread:33|AsyncReaderWriterLock|Released exclusive lock for operation 55: 'CreateCommit' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:45:26.8200|INFO|thread: 1|SyncButtonViewModel|Getting ahead/behind counts but skipping the fetch.
+2015-05-11 23:45:26.8300|INFO|thread:50|AsyncReaderWriterLock|Acquiring concurrent lock for operation 56: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:45:26.8300|INFO|thread:50|AsyncReaderWriterLock|Acquired concurrent lock for operation 56: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:45:26.8300|INFO|thread:48|RepositoryConnection|Detecting ahead/behind info for branch: master.
+2015-05-11 23:45:26.8561|INFO|thread:52|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:45:26.8561|INFO|thread:52|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:45:26.8561|INFO|thread:52|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:45:26.8641|INFO|thread:48|RepositoryConnection|branch stats: ahead 1, behind 2
+2015-05-11 23:45:26.8871|INFO|thread: 1|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:45:26.8871|INFO|thread: 1|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:45:26.8871|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'diff-tree --root -m -r -z --name-status 02b7f3e41663ca0ebf930f3fd0d0819205b7cd01 ', Working Directory: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 23:45:26.9021|INFO|thread: 1|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:45:26.9021|INFO|thread: 1|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:45:26.9021|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'diff-tree --root -m -r -z --numstat 02b7f3e41663ca0ebf930f3fd0d0819205b7cd01 ', Working Directory: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 23:45:26.9231|INFO|thread:48|AsyncReaderWriterLock|Released concurrent lock for operation 56: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:45:35.8813|INFO|thread: 1|RepositoryHost|Log in from cache for login 'Tenorio9' to host 'https://api.github.com/' SUCCEEDED
+2015-05-11 23:45:35.8813|INFO|thread: 1|SyncButtonViewModel|Starting sync for C:\xampp\htdocs\PHPDocumentos - master
+2015-05-11 23:45:35.8813|INFO|thread:33|AsyncReaderWriterLock|Acquiring exclusive lock for operation 57: 'SyncBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:45:35.8813|INFO|thread:51|AsyncReaderWriterLock|Acquired exclusive lock for operation 57: 'SyncBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:45:35.8813|INFO|thread:22|GitClient|Sync has latest unpublished commit SHA: '02b7f3e41663ca0ebf930f3fd0d0819205b7cd01'
+2015-05-11 23:45:35.8983|INFO|thread:22|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:45:35.8983|INFO|thread:22|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:45:35.8983|INFO|thread:22|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'pull --progress --rebase --prune origin master ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:45:45.4757|INFO|thread:46|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:45:45.4757|INFO|thread:46|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:45:45.4757|INFO|thread:46|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'rebase --abort ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:45:46.8091|INFO|thread:48|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:45:46.8091|INFO|thread:48|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:45:46.8091|INFO|thread:48|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'merge origin/master ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:45:46.9572|INFO|thread:44|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:45:46.9572|INFO|thread:44|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:45:46.9572|INFO|thread:44|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'pull --progress --prune origin master ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:45:49.4577|INFO|thread:40|AsyncReaderWriterLock|Released exclusive lock for operation 57: 'SyncBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:45:49.4987|WARN|thread: 1|StandardUserErrors|Showing user error Syncing would overwrite your uncommitted changes. Please commit or discard your changes and try again.
+GitHub.Helpers.PullWithWorkingDirectoryChangesGitException: From https://github.com/hernandezbb/PHPDocumentos
+ * branch            master     -> FETCH_HEAD
+error: Your local changes to the following files would be overwritten by merge:
+	data/ModeloPrograWeb.s3db
+	views/partials/archivos.html
+Please, commit your changes or stash them before you can merge.
+error: The following untracked working tree files would be overwritten by merge:
+	img/css.png
+	img/doc.png
+	img/html.png
+	img/mp3.png
+	img/pdf.png
+	img/ppt.png
+	img/sql.png
+	img/txt.png
+	img/xls.png
+Please move or remove them before you can merge.
+Aborting ---> GitHub.IO.ProcessException: From https://github.com/hernandezbb/PHPDocumentos
+ * branch            master     -> FETCH_HEAD
+error: Your local changes to the following files would be overwritten by merge:
+	data/ModeloPrograWeb.s3db
+	views/partials/archivos.html
+Please, commit your changes or stash them before you can merge.
+error: The following untracked working tree files would be overwritten by merge:
+	img/css.png
+	img/doc.png
+	img/html.png
+	img/mp3.png
+	img/pdf.png
+	img/ppt.png
+	img/sql.png
+	img/txt.png
+	img/xls.png
+Please move or remove them before you can merge.
+Aborting
+   --- Fin del seguimiento de la pila de la excepción interna ---
+2015-05-11 23:45:55.3441|INFO|thread: 1|SyncButtonViewModel|Completing sync for C:\xampp\htdocs\PHPDocumentos - master
+2015-05-11 23:45:55.3441|INFO|thread:51|AsyncReaderWriterLock|Acquiring concurrent lock for operation 58: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:45:55.3441|INFO|thread:47|AsyncReaderWriterLock|Acquired concurrent lock for operation 58: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:45:55.4937|INFO|thread:32|AsyncReaderWriterLock|Released concurrent lock for operation 58: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:45:55.4937|INFO|thread:46|AsyncReaderWriterLock|Acquiring concurrent lock for operation 59: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:45:55.4937|INFO|thread: 4|AsyncReaderWriterLock|Acquired concurrent lock for operation 59: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:45:55.5057|INFO|thread:33|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 23:45:55.5057|INFO|thread:43|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:45:55.5057|INFO|thread:43|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:45:55.5057|INFO|thread:43|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:45:55.5217|INFO|thread:33|RepositoryConnection|Loaded '1' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 23:45:55.5377|INFO|thread:46|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 23:45:55.5377|INFO|thread:46|RepositoryConnection|Loaded '23' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 23:45:55.8419|INFO|thread:47|AsyncReaderWriterLock|Released concurrent lock for operation 59: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:45:56.0943|INFO|thread: 1|SyncButtonViewModel|Getting ahead/behind counts but skipping the fetch.
+2015-05-11 23:45:56.1003|INFO|thread: 4|RepositoryConnection|Detecting ahead/behind info for branch: master.
+2015-05-11 23:45:56.1003|INFO|thread: 4|RepositoryConnection|branch stats: ahead 1, behind 2
+2015-05-11 23:46:51.4667|INFO|thread: 1|RepositoryViewModel|Refreshing all information for repo
+2015-05-11 23:46:51.4667|INFO|thread:48|AsyncReaderWriterLock|Acquiring concurrent lock for operation 60: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:46:51.4667|INFO|thread:48|AsyncReaderWriterLock|Acquired concurrent lock for operation 60: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:46:51.5218|INFO|thread:32|AsyncReaderWriterLock|Released concurrent lock for operation 60: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:46:51.5218|INFO|thread:34|AsyncReaderWriterLock|Acquiring concurrent lock for operation 61: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:46:51.5218|INFO|thread:46|AsyncReaderWriterLock|Acquired concurrent lock for operation 61: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:46:51.5218|INFO|thread:40|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 23:46:51.5388|INFO|thread:31|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:46:51.5388|INFO|thread:31|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:46:51.5388|INFO|thread:31|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:46:51.5388|INFO|thread:40|RepositoryConnection|Loaded '1' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 23:46:51.5658|INFO|thread:30|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 23:46:51.5658|INFO|thread:30|RepositoryConnection|Loaded '23' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 23:46:51.9160|INFO|thread:34|AsyncReaderWriterLock|Released concurrent lock for operation 61: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:46:52.0225|INFO|thread: 1|SyncButtonViewModel|Getting ahead/behind counts but skipping the fetch.
+2015-05-11 23:46:52.0225|INFO|thread:46|RepositoryConnection|Detecting ahead/behind info for branch: master.
+2015-05-11 23:46:52.0225|INFO|thread:46|RepositoryConnection|branch stats: ahead 1, behind 2
+2015-05-11 23:47:09.5061|INFO|thread: 1|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:47:09.5061|INFO|thread: 1|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:47:09.5061|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'diff-tree --root -m -r -z --name-status 02b7f3e41663ca0ebf930f3fd0d0819205b7cd01 ', Working Directory: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 23:47:09.5061|INFO|thread: 1|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:47:09.5061|INFO|thread: 1|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:47:09.5061|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'diff-tree --root -m -r -z --numstat 02b7f3e41663ca0ebf930f3fd0d0819205b7cd01 ', Working Directory: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 23:47:25.5969|INFO|thread:34|AsyncReaderWriterLock|Acquiring exclusive lock for operation 62: 'CreateCommit' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:47:25.5969|INFO|thread:34|AsyncReaderWriterLock|Acquired exclusive lock for operation 62: 'CreateCommit' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:47:25.5969|INFO|thread:31|ExclusiveRepositoryConnection|Creating Commit
+2015-05-11 23:47:25.6139|INFO|thread:31|ExclusiveRepositoryConnection|Creating new commit with 8 file(s). Ajustes
+2015-05-11 23:47:25.6139|INFO|thread:31|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:47:25.6139|INFO|thread:31|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:47:25.6139|INFO|thread:31|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "css/general.css" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:47:25.6693|INFO|thread:48|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:47:25.6693|INFO|thread:48|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:47:25.6693|INFO|thread:48|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "css/layout.css" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:47:25.7153|INFO|thread:36|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:47:25.7153|INFO|thread:36|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:47:25.7153|INFO|thread:36|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "data/ModeloPrograWeb.s3db" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:47:25.7605|INFO|thread:40|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:47:25.7605|INFO|thread:40|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:47:25.7605|INFO|thread:40|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "img/mp3.png" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:47:25.8073|INFO|thread:17|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:47:25.8073|INFO|thread:17|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:47:25.8073|INFO|thread:17|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "views/partials/archivos.html" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:47:25.8528|INFO|thread:48|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:47:25.8528|INFO|thread:48|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:47:25.8528|INFO|thread:48|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "views/partials/integrante.html" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:47:25.8962|INFO|thread:17|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:47:25.8962|INFO|thread:17|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:47:25.8962|INFO|thread:17|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "views/partials/integrantes.html" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:47:25.9418|INFO|thread:40|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:47:25.9418|INFO|thread:40|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:47:25.9418|INFO|thread:40|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "views/partials/menu.html" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:47:25.9889|INFO|thread:46|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:47:25.9889|INFO|thread:46|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:47:25.9889|INFO|thread:46|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'commit -F "C:\Users\carlos\AppData\Local\Temp\tmp5BA7.tmp" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:47:26.0950|INFO|thread:17|AsyncReaderWriterLock|Released exclusive lock for operation 62: 'CreateCommit' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:47:26.1000|WARN|thread: 1|StandardUserErrors|Showing user error Failed to create a new commit.
+GitHub.IO.ProcessException: On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 2 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+nothing to commit, working directory clean
+2015-05-11 23:47:37.3327|INFO|thread:45|AsyncReaderWriterLock|Acquiring exclusive lock for operation 63: 'CreateCommit' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:47:37.3327|INFO|thread:36|AsyncReaderWriterLock|Acquired exclusive lock for operation 63: 'CreateCommit' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:47:37.3327|INFO|thread:31|ExclusiveRepositoryConnection|Creating Commit
+2015-05-11 23:47:37.3477|INFO|thread:31|ExclusiveRepositoryConnection|Creating new commit with 7 file(s). Ajustes
+2015-05-11 23:47:37.3477|INFO|thread:31|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:47:37.3477|INFO|thread:31|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:47:37.3477|INFO|thread:31|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "css/general.css" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:47:37.4018|INFO|thread:17|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:47:37.4018|INFO|thread:17|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:47:37.4018|INFO|thread:17|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "css/layout.css" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:47:37.4418|INFO|thread:34|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:47:37.4418|INFO|thread:34|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:47:37.4418|INFO|thread:34|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "data/ModeloPrograWeb.s3db" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:47:37.4818|INFO|thread:40|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:47:37.4818|INFO|thread:40|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:47:37.4818|INFO|thread:40|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "views/partials/archivos.html" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:47:37.5199|INFO|thread:45|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:47:37.5199|INFO|thread:45|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:47:37.5199|INFO|thread:45|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "views/partials/integrante.html" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:47:37.5619|INFO|thread:34|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:47:37.5619|INFO|thread:34|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:47:37.5619|INFO|thread:34|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "views/partials/integrantes.html" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:47:37.6034|INFO|thread:34|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:47:37.6034|INFO|thread:34|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:47:37.6034|INFO|thread:34|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "views/partials/menu.html" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:47:37.6434|INFO|thread:34|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:47:37.6434|INFO|thread:34|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:47:37.6434|INFO|thread:34|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'commit -F "C:\Users\carlos\AppData\Local\Temp\tmp8930.tmp" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:47:37.7025|INFO|thread:34|AsyncReaderWriterLock|Released exclusive lock for operation 63: 'CreateCommit' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:47:37.7025|WARN|thread: 1|StandardUserErrors|Showing user error Failed to create a new commit.
+GitHub.IO.ProcessException: On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 2 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+nothing to commit, working directory clean
+2015-05-11 23:47:45.6891|INFO|thread: 1|RepositoryHost|Log in from cache for login 'Tenorio9' to host 'https://api.github.com/' SUCCEEDED
+2015-05-11 23:47:45.6911|INFO|thread: 1|SyncButtonViewModel|Starting sync for C:\xampp\htdocs\PHPDocumentos - master
+2015-05-11 23:47:45.6911|INFO|thread:36|AsyncReaderWriterLock|Acquiring exclusive lock for operation 64: 'SyncBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:47:45.6911|INFO|thread:46|AsyncReaderWriterLock|Acquired exclusive lock for operation 64: 'SyncBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:47:45.6911|INFO|thread:32|GitClient|Sync has latest unpublished commit SHA: '02b7f3e41663ca0ebf930f3fd0d0819205b7cd01'
+2015-05-11 23:47:45.6911|INFO|thread:32|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:47:45.6911|INFO|thread:32|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:47:45.6911|INFO|thread:32|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'pull --progress --rebase --prune origin master ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:47:52.5699|INFO|thread:36|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:47:52.5699|INFO|thread:36|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:47:52.5699|INFO|thread:36|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'rebase --abort ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:47:53.4665|INFO|thread:44|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:47:53.4665|INFO|thread:44|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:47:53.4665|INFO|thread:44|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'merge origin/master ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:47:53.5335|INFO|thread:36|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:47:53.5335|INFO|thread:36|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:47:53.5335|INFO|thread:36|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'pull --progress --prune origin master ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:47:56.0165|INFO|thread:48|AsyncReaderWriterLock|Released exclusive lock for operation 64: 'SyncBranch' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:47:56.0175|WARN|thread: 1|StandardUserErrors|Showing user error Syncing would overwrite your uncommitted changes. Please commit or discard your changes and try again.
+GitHub.Helpers.PullWithWorkingDirectoryChangesGitException: From https://github.com/hernandezbb/PHPDocumentos
+ * branch            master     -> FETCH_HEAD
+error: Your local changes to the following files would be overwritten by merge:
+	data/ModeloPrograWeb.s3db
+	views/partials/archivos.html
+Please, commit your changes or stash them before you can merge.
+error: The following untracked working tree files would be overwritten by merge:
+	img/css.png
+	img/doc.png
+	img/html.png
+	img/mp3.png
+	img/pdf.png
+	img/ppt.png
+	img/sql.png
+	img/txt.png
+	img/xls.png
+Please move or remove them before you can merge.
+Aborting ---> GitHub.IO.ProcessException: From https://github.com/hernandezbb/PHPDocumentos
+ * branch            master     -> FETCH_HEAD
+error: Your local changes to the following files would be overwritten by merge:
+	data/ModeloPrograWeb.s3db
+	views/partials/archivos.html
+Please, commit your changes or stash them before you can merge.
+error: The following untracked working tree files would be overwritten by merge:
+	img/css.png
+	img/doc.png
+	img/html.png
+	img/mp3.png
+	img/pdf.png
+	img/ppt.png
+	img/sql.png
+	img/txt.png
+	img/xls.png
+Please move or remove them before you can merge.
+Aborting
+   --- Fin del seguimiento de la pila de la excepción interna ---
+2015-05-11 23:47:59.4883|INFO|thread: 1|SyncButtonViewModel|Completing sync for C:\xampp\htdocs\PHPDocumentos - master
+2015-05-11 23:47:59.4883|INFO|thread:46|AsyncReaderWriterLock|Acquiring concurrent lock for operation 65: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:47:59.4883|INFO|thread:44|AsyncReaderWriterLock|Acquired concurrent lock for operation 65: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:47:59.5337|INFO|thread:52|AsyncReaderWriterLock|Released concurrent lock for operation 65: 'LoadHeadForRepo' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:47:59.5337|INFO|thread:32|AsyncReaderWriterLock|Acquiring concurrent lock for operation 66: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:47:59.5337|INFO|thread:44|AsyncReaderWriterLock|Acquired concurrent lock for operation 66: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:47:59.5337|INFO|thread:46|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 23:47:59.5538|INFO|thread:42|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:47:59.5538|INFO|thread:42|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:47:59.5538|INFO|thread:42|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:47:59.5538|INFO|thread:46|RepositoryConnection|Loaded '1' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 23:47:59.6208|INFO|thread:17|GitClient|Loading commits for repo: C:\xampp\htdocs\PHPDocumentos
+2015-05-11 23:47:59.6398|INFO|thread:17|RepositoryConnection|Loaded '23' commits for repo: C:\xampp\htdocs\PHPDocumentos\.
+2015-05-11 23:47:59.9170|INFO|thread:46|AsyncReaderWriterLock|Released concurrent lock for operation 66: 'LoadFilesInWorkingDirectory' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:47:59.9641|INFO|thread: 1|SyncButtonViewModel|Getting ahead/behind counts but skipping the fetch.
+2015-05-11 23:47:59.9641|INFO|thread:46|RepositoryConnection|Detecting ahead/behind info for branch: master.
+2015-05-11 23:47:59.9731|INFO|thread:46|RepositoryConnection|branch stats: ahead 1, behind 2
+2015-05-11 23:48:42.2346|INFO|thread:34|AsyncReaderWriterLock|Acquiring exclusive lock for operation 67: 'CreateCommit' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:48:42.2346|INFO|thread:17|AsyncReaderWriterLock|Acquired exclusive lock for operation 67: 'CreateCommit' on resource C:\xampp\htdocs\PHPDocumentos\.git
+2015-05-11 23:48:42.2427|INFO|thread:52|ExclusiveRepositoryConnection|Creating Commit
+2015-05-11 23:48:42.2547|INFO|thread:52|ExclusiveRepositoryConnection|Creating new commit with 7 file(s). Ajustes
+2015-05-11 23:48:42.2547|INFO|thread:52|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:48:42.2547|INFO|thread:52|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:48:42.2547|INFO|thread:52|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "css/general.css" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:48:42.3147|INFO|thread:46|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:48:42.3147|INFO|thread:46|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:48:42.3147|INFO|thread:46|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "css/layout.css" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:48:42.3657|INFO|thread:48|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:48:42.3657|INFO|thread:48|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:48:42.3657|INFO|thread:48|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "data/ModeloPrograWeb.s3db" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:48:42.4258|INFO|thread:47|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:48:42.4258|INFO|thread:47|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:48:42.4258|INFO|thread:47|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "views/partials/archivos.html" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:48:42.4828|INFO|thread:32|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:48:42.4828|INFO|thread:32|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:48:42.4828|INFO|thread:32|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "views/partials/integrante.html" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:48:42.5409|INFO|thread:36|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:48:42.5409|INFO|thread:36|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:48:42.5409|INFO|thread:36|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "views/partials/integrantes.html" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:48:42.5919|INFO|thread:44|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:48:42.5919|INFO|thread:44|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:48:42.5919|INFO|thread:44|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "views/partials/menu.html" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:48:42.6449|INFO|thread:48|GitEnvironment|Process set up with this SSH Agent info: 5592:/tmp/ssh-OAfWLV4rFCx5/agent.5456
+2015-05-11 23:48:42.6449|INFO|thread:48|GitEnvironment|PATH is C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\carlos\AppData\Local\Apps\2.0\QWOZBM97.CX8\NMBHY1R1.P7T\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\carlos\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-05-11 23:48:42.6449|INFO|thread:48|ProcessWrapper|Starting: Process - FileName: 'C:\Users\carlos\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'commit -F "C:\Users\carlos\AppData\Local\Temp\tmp8719.tmp" ', Working Directory: C:\xampp\htdocs\PHPDocumentos\
+2015-05-11 23:48:42.7240|INFO|thread:36|AsyncReaderWriterLock|Released exclusive lock for operation 67: 'CreateCommit' on resource C:\xampp\htdocs\PHPDocumentos\.git

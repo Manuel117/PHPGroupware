@@ -1,0 +1,283 @@
+/*CARPETAS*/
+
+#directorio{
+	background-color: #eee;
+	height: 100%;
+	padding:0!important;
+	margin-top:73px;
+	overflow-y: auto;
+	position: relative;
+	display: block;
+	border-right: 1px solid #ccc;
+	
+}
+
+.acciones{
+	height: 40px;
+	border-bottom: 1px solid #ccc;
+}
+
+.accion{
+	margin-right: 15px;
+	margin-top: 14px;
+}
+
+.carpeta{
+	 width: 100%;
+	 height: 100%;
+	 padding-top: 10px;
+	 border-bottom: 1px solid #ccc;
+	 padding-bottom: 10px;
+}
+
+.carpeta .nombre{
+	padding-top: 5px;
+	color:black!important;
+	padding-right: 0px!important;
+	margin-left: 10px;
+}
+
+.carpeta i{
+	color:burlywood;
+}
+
+.carpeta:hover,
+.carpeta:focus{
+	
+	border-left: 5px solid #888;
+	background-color: #ccc;
+	
+}
+
+
+
+.btnEliminarC{
+	display:none;
+}
+.btnEliminarE{
+	display:none;
+}
+.btnEditarC{
+	display:none;
+}
+
+.accionCar{
+	margin-top: 9px;
+	color:#888!important;
+}
+
+/* Grupos */
+.grupo{
+	 width: 100%;
+	 height: 100%;
+	 padding-top: 10px;
+	 border-bottom: 1px solid #ccc;
+	 padding-bottom: 10px;
+}
+
+.grupo .nombre{
+	padding-top: 5px;
+	color:black!important;
+	padding-right: 0px!important;
+	margin-left: 10px;
+}
+
+.grupo i{
+	color:#1b98f8;
+}
+
+.grupo:hover,
+.grupo:focus{
+	
+	border-left: 5px solid #888;
+	background-color: #ccc;
+	
+}
+
+
+
+.btnEliminarG{
+	display:none;
+}
+.btnEditarG{
+	display:none;
+}
+.BtnEliminarIntegrante{
+	display:none;
+}
+
+
+/*ARCHIVOS*/
+
+#files{
+	background-color: #eee;
+	height: 100%;
+	padding:0!important;
+	border-left: 1px solid #ccc;
+	margin-top:73px;
+	overflow-y: auto;
+	
+}
+
+.archivoC{
+	margin:10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.archivoC .datos{
+	margin-top: 10px;
+}
+
+.archivoC:hover,
+.archivoC:focus{
+	background-color: #ccc;
+	border-radius: 25px;
+}
+.archivoL a{
+	color: black;
+	text-decoration: none;
+	padding: 0;
+}
+
+.archivoL:hover{
+	background-color: #ccc;
+}
+
+.nombreA{
+	white-space: pre-line;
+    word-wrap: break-word;
+	text-decoration: none;
+	color: black;
+	
+}
+
+/*INTEGRANTES*/
+.integrante{
+	width: 100%;
+	padding-top: 10px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+
+.integrante .nombre{
+	padding-top: 5px;
+	color:black!important;
+	padding-right: 0px!important;
+	margin-left: 10px;
+}
+
+.integrante #icono{
+	color:#1b98f8!important;
+}
+
+.integrante:hover,
+.integrante:focus{
+	
+	border-right: 5px solid #888;
+	background-color: #ccc;	
+}
+
+.accionIns{
+	margin-top: 9px;
+}
+
+#accionesIns{
+	padding-right: 0!important;
+}
+
+.listaA{
+	border-bottom: 1px solid #ccc;
+}
+
+/*INTEGRANTE*/
+
+.integranteInfo{
+	text-align: center;
+	margin:20px;
+}
+
+
+/*ICONOS*/
+
+.fa-plus:hover, .fa-trash-o:hover, .fa-pencil-square-o:hover,
+.fa-download:hover, .fa-share-alt:hover, .fa-bars:hover,
+.fa-th-large:hover {
+	-webkit-transform: scale(1.2,1.2);
+    -moz-transform:scale(1.2,1.2);
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+}
+
+.fa{
+	color: #888;
+}
+
+.vista{
+	margin-left: 10px;
+}
+
+
+/*MENU*/
+
+.tUnidades{
+	background-color:#aaa;
+	color:white;
+}
+
+.tGrupos{
+	background-color:#aaa;
+	color: white;
+}
+
+.tTags{
+	background-color:#aaa;
+	color: white;
+}
+
+/*amarillo:#ECA403*/
+/*verde:#0F9D58*/
+/*azul:#4285F4*/
+
+/*Visualizar*/
+
+.imgVisual{
+	width: 100%;
+	height: 100%;
+}
+
+.accionV{
+	float:right;
+	margin-right: 5px;
+	margin: 5px;
+}
+
+.btnSalirM{
+	color:#ccc!important;
+	margin-left: 15px;
+}
+
+/*Modal Eliminar*/
+#modal-eliminar{
+	z-index: 7000;
+}
+
+#modal-editar{
+	z-index: 7000;
+}
+
+/*FILTRO*/
+#filtroArchivos {
+	margin-top: 10px;
+}
+#filtroArchivos input{
+	color:black;
+}
+
+
+/*adicionales manejo de botones*/
+
+#etiquetaDiv #files .acciones .aCheck {
+	visibility: hidden;
+}

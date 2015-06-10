@@ -1,0 +1,32 @@
+<div id="modal-Etiqueta" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<!--header-->
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Agregar Etiqueta </h4>
+				</div>
+				<!--body-->
+				<form class="pure-form pure-form-stacked" enctype="multipart/form-data" method="POST" action="/PHPDocumentos/MisEtiquetas/">
+					<div class="modal-body">
+				        <div class="pure-control-group">
+						 	<label for="Grupo">Añadir una Etiqueta: </label>
+							<select name="etiquetaCB" required>
+								<option value="">--Seleccione--</option>
+								{{# etiquetasP}}
+										<option value="{{IdEtiqueta}}">{{Descripcion}}</option>
+								{{/ etiquetasP}}
+									
+							</select>
+						</div>
+						<input id="idEt" name="idEt" type="hidden" class="idEt">
+					</div>
+						<!--footer-->
+					<div class="modal-footer">
+						<button type="button"class="pure-button pure-button-secondary" data-dismiss="modal">Cancel</button>
+						<input type="submit" class="pure-button pure-button-primary" name="btnEtiqueta" value="Vincular Etiqueta">
+					</div>
+				</form>
+		</div>
+	</div>
+</div>

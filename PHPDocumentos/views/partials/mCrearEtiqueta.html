@@ -1,0 +1,26 @@
+<div id="modal-nuevaE" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<!--header-->
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Crear Etiqueta</h4>
+				</div>
+				<!--body-->
+				<div class="modal-body">
+					<form class="pure-form pure-form-stacked" method="POST" action="/PHPDocumentos/MisEtiquetas/">
+						<label for="descripcionEt">Etiqueta:</label>
+						<input id="descripcionEt" name="descripcionEt" class="pure-input-1" type="text" placeholder="Obligatorio" required>
+						
+					</div>
+					<!--footer-->
+					<div class="modal-footer">
+						<button type="button"class="pure-button pure-button-secondary" data-dismiss="modal">Cancel</button>
+						<input type="submit" class="pure-button pure-button-primary" value="Crear Etiqueta" name="btnEtiqueta" />
+					</div>
+					</form>
+				</div>
+
+		</div>
+	</div>
+</div>

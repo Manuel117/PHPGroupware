@@ -1,0 +1,43 @@
+
+<form method="post" action="/PHPDocumentos/MC/">
+<div id="files" class="col-md-8">
+    <div class="acciones">
+        
+             <div class="pure-form"> 
+                <input class="derecha pure-button pure-button-active button-success" type="submit" name="variosAc" id="mArchivo"  data-toggle="modal" data-target="#modal-MArchivo" value="Mover"> </input>
+                <input class="derecha pure-button pure-button-active button-success" type="submit" name="variosAc" id="cArchivo"  data-toggle="modal" data-target="#modal-CArchivo" value="Copiar"/>
+                <select title="Seleccionar carpeta para mover/copiar archivo(s)" class="derecha pure-button pure-button-active" name="carpetaCB" required>
+                                        <option value="0">--Mi Unidad--</option>
+                                        {{# carpetasU}}
+                                                <option value="{{IdCarpeta}}">{{Descripcion}}</option>
+                                        {{/ carpetasU}}
+                                            
+                </select>
+             </div>
+        <a href="/PHPDocumentos/cvArch/{{idCarpeta}}"><i class="fa fa-bars fa-lg vista accion"></i></a>
+        <a class="aCheck" href="/PHPDocumentos/cvArchCheck/"><i class="fa fa-file fa-lg vista accion"></i></a>
+    </div>
+   
+    <div class="archivos" class="col-md-12">{{# archivos}}
+                    
+       
+                  
+        <a class="aVisual" href="#"  name="{{Descripcion}}">
+            <div class="archivoC col-md-2 col-xs-5 col-sm-5">
+                <label for="seleccionar">
+                                    <input id="seleccionar" type="checkbox" name="ckbSeleccionado[]" value="{{IdDocumento}},{{IdCarpeta}}"/>
+                    </label> 
+                <center>
+                     <img id="{{Extension}}" alt="imagen" onerror="this.src='/PHPDocumentos/img/otro.png'" height="50" width="50" src="/PHPDocumentos/img/{{Extension}}.png" placeholder="{{Archivo}}" iddocumento="{{IdDocumento}}">
+                    <br/>
+                    <div class="datos">
+                        <div class="nombreA">{{Descripcion}}</div>
+                    </div>
+                    
+                </center>
+            </div>
+        </a>{{/ archivos}}
+    </div>
+  
+</div>
+</form>

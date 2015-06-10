@@ -1,0 +1,39 @@
+<div id="directorio" class="col-md-4">
+    <div class="acciones">                
+        <a href="#" data-toggle="modal" data-target="#modal-nuevaE"><i class="fa fa-plus fa-lg derecha accion"></i></a>
+    </div>
+    <div class="carpetas">
+        <a href="/PHPDocumentos/MisEtiquetas/Todo">
+                    <div class="pure-u carpeta">
+                        <div class="col-md-1">
+                            <i class="fa fa-tag fa-lg"></i>
+                        </div>
+                        <div class="col-md-7 nombre">
+                           <span>Todos los Archivos</span> 
+                        </div>
+                        
+                        <div class="col-md-2">
+                          
+                        </div>
+                    </div>
+                </a>
+                <br/>
+
+        {{# etiquetas}}
+        <a href="/PHPDocumentos/MisEtiquetas/{{IdEtiqueta}}">
+            <div class="pure-u carpeta">
+                <div class="col-md-1">
+                    <i class="fa fa-tag fa-lg"></i>
+                </div>
+                <div class="col-md-7 nombre">
+                   <span>{{Descripcion}}</span> 
+                </div>
+                
+                <div class="col-md-2">
+                    <a id="{{IdEtiqueta}}" class="btnEliminarE" href="#" data-toggle="modal" data-target="#modal-eliminar"><i class="fa fa-trash-o fa-lg derecha accionCar"></i></a>
+                </div>
+            </div>
+        </a>
+        <br/>{{/ etiquetas}}
+    </div>
+</div>  

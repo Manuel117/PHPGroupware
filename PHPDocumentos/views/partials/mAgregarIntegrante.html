@@ -1,0 +1,32 @@
+<div id="modal-Integrante" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<!--header-->
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Agregar Intengrante </h4>
+				</div>
+				<!--body-->
+				<form class="pure-form pure-form-stacked" enctype="multipart/form-data" method="POST" action="/PHPDocumentos/AddIntegrante/">
+					<div class="modal-body">
+				        <div class="pure-control-group">
+						 	<label for="Grupo">Añadir Integrante: </label>
+							<select name="usuario" required>
+								<option value="">--Seleccione--</option>
+								{{# usuarios}}
+										<option value="{{IdUsuario}}">{{NombreUsuario}}</option>
+								{{/ usuarios}}
+									
+							</select>
+						</div>
+						<input type="hidden" value="{{grupo}}" id="idGrupo" name="idGrupo">
+					</div>
+						<!--footer-->
+					<div class="modal-footer">
+						<button type="button"class="pure-button pure-button-secondary" data-dismiss="modal">Cancel</button>
+						<button type="submit" class="pure-button pure-button-primary">Agregar</button>
+					</div>
+				</form>
+		</div>
+	</div>
+</div>
